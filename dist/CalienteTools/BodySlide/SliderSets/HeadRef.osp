@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="HeadRef">
+        <DataFolder>HeadRef</DataFolder>
+        <SourceFile>HeadRef.nif</SourceFile>
+        <OutputPath>meshes\devious\devices</OutputPath>
+        <OutputFile GenWeights="false">HeadRef</OutputFile>
+        <Shape target="FemaleHead">FemaleHead</Shape>
+        <Slider name="Underbite" invert="false" default="0">
+            <Data name="FemaleHeadUnderbite" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadUnderbite</Data>
+        </Slider>
+        <Slider name="Overbite" invert="false" default="0">
+            <Data name="FemaleHeadOverbite" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadOverbite</Data>
+        </Slider>
+        <Slider name="NoseUp" invert="false" default="0">
+            <Data name="FemaleHeadNoseUp" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseUp</Data>
+        </Slider>
+        <Slider name="NoseDown" invert="false" default="0">
+            <Data name="FemaleHeadNoseDown" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseDown</Data>
+        </Slider>
+        <Slider name="NoseLong" invert="false" default="0">
+            <Data name="FemaleHeadNoseLong" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseLong</Data>
+        </Slider>
+        <Slider name="NoseShort" invert="false" default="0">
+            <Data name="FemaleHeadNoseShort" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseShort</Data>
+        </Slider>
+        <Slider name="LipMoveUp" invert="false" default="0">
+            <Data name="FemaleHeadLipMoveUp" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipMoveUp</Data>
+        </Slider>
+        <Slider name="LipMoveDown" invert="false" default="0">
+            <Data name="FemaleHeadLipMoveDown" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipMoveDown</Data>
+        </Slider>
+        <Slider name="LipMoveIn" invert="false" default="0">
+            <Data name="FemaleHeadLipMoveIn" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipMoveIn</Data>
+        </Slider>
+        <Slider name="LipMoveOut" invert="false" default="0">
+            <Data name="FemaleHeadLipMoveOut" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipMoveOut</Data>
+        </Slider>
+        <Slider name="JawUp" invert="false" default="0">
+            <Data name="FemaleHeadJawUp" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadJawUp</Data>
+        </Slider>
+        <Slider name="JawDown" invert="false" default="0">
+            <Data name="FemaleHeadJawDown" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadJawDown</Data>
+        </Slider>
+        <Slider name="JawWide" invert="false" default="0">
+            <Data name="FemaleHeadJawWide" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadJawWide</Data>
+        </Slider>
+        <Slider name="JawNarrow" invert="false" default="0">
+            <Data name="FemaleHeadJawNarrow" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadJawNarrow</Data>
+        </Slider>
+        <Slider name="JawForward" invert="false" default="0">
+            <Data name="FemaleHeadJawForward" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadJawForward</Data>
+        </Slider>
+        <Slider name="JawBack" invert="false" default="0">
+            <Data name="FemaleHeadJawBack" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadJawBack</Data>
+        </Slider>
+        <Slider name="EyesMoveUp" invert="false" default="0">
+            <Data name="FemaleHeadEyesMoveUp" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesMoveUp</Data>
+        </Slider>
+        <Slider name="EyesMoveDown" invert="false" default="0">
+            <Data name="FemaleHeadEyesMoveDown" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesMoveDown</Data>
+        </Slider>
+        <Slider name="EyesMoveIn" invert="false" default="0">
+            <Data name="FemaleHeadEyesMoveIn" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesMoveIn</Data>
+        </Slider>
+        <Slider name="EyesMoveOut" invert="false" default="0">
+            <Data name="FemaleHeadEyesMoveOut" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesMoveOut</Data>
+        </Slider>
+        <Slider name="EyesForward" invert="false" default="0">
+            <Data name="FemaleHeadEyesForward" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesForward</Data>
+        </Slider>
+        <Slider name="EyesBack" invert="false" default="0">
+            <Data name="FemaleHeadEyesBack" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesBack</Data>
+        </Slider>
+        <Slider name="ChinMoveUp" invert="false" default="0">
+            <Data name="FemaleHeadChinMoveUp" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadChinMoveUp</Data>
+        </Slider>
+        <Slider name="ChinMoveDown" invert="false" default="0">
+            <Data name="FemaleHeadChinMoveDown" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadChinMoveDown</Data>
+        </Slider>
+        <Slider name="ChinWide" invert="false" default="0">
+            <Data name="FemaleHeadChinWide" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadChinWide</Data>
+        </Slider>
+        <Slider name="ChinThin" invert="false" default="0">
+            <Data name="FemaleHeadChinThin" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadChinThin</Data>
+        </Slider>
+        <Slider name="CheeksUp" invert="false" default="0">
+            <Data name="FemaleHeadCheeksUp" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCheeksUp</Data>
+        </Slider>
+        <Slider name="CheeksDown" invert="false" default="0">
+            <Data name="FemaleHeadCheeksDown" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCheeksDown</Data>
+        </Slider>
+        <Slider name="CheeksIn" invert="false" default="0">
+            <Data name="FemaleHeadCheeksIn" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCheeksIn</Data>
+        </Slider>
+        <Slider name="CheeksOut" invert="false" default="0">
+            <Data name="FemaleHeadCheeksOut" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCheeksOut</Data>
+        </Slider>
+        <Slider name="BrowUp" invert="false" default="0">
+            <Data name="FemaleHeadBrowUp" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBrowUp</Data>
+        </Slider>
+        <Slider name="BrowDown" invert="false" default="0">
+            <Data name="FemaleHeadBrowDown" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBrowDown</Data>
+        </Slider>
+        <Slider name="BrowIn" invert="false" default="0">
+            <Data name="FemaleHeadBrowIn" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBrowIn</Data>
+        </Slider>
+        <Slider name="BrowOut" invert="false" default="0">
+            <Data name="FemaleHeadBrowOut" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBrowOut</Data>
+        </Slider>
+        <Slider name="BrowForward" invert="false" default="0">
+            <Data name="FemaleHeadBrowForward" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBrowForward</Data>
+        </Slider>
+        <Slider name="BrowBack" invert="false" default="0">
+            <Data name="FemaleHeadBrowBack" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBrowBack</Data>
+        </Slider>
+        <Slider name="NoseType1" invert="false" default="0">
+            <Data name="FemaleHeadNoseType1" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType1</Data>
+        </Slider>
+        <Slider name="NoseType2" invert="false" default="0">
+            <Data name="FemaleHeadNoseType2" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType2</Data>
+        </Slider>
+        <Slider name="NoseType3" invert="false" default="0">
+            <Data name="FemaleHeadNoseType3" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType3</Data>
+        </Slider>
+        <Slider name="NoseType4" invert="false" default="0">
+            <Data name="FemaleHeadNoseType4" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType4</Data>
+        </Slider>
+        <Slider name="NoseType5" invert="false" default="0">
+            <Data name="FemaleHeadNoseType5" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType5</Data>
+        </Slider>
+        <Slider name="NoseType6" invert="false" default="0">
+            <Data name="FemaleHeadNoseType6" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType6</Data>
+        </Slider>
+        <Slider name="NoseType7" invert="false" default="0">
+            <Data name="FemaleHeadNoseType7" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType7</Data>
+        </Slider>
+        <Slider name="NoseType8" invert="false" default="0">
+            <Data name="FemaleHeadNoseType8" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType8</Data>
+        </Slider>
+        <Slider name="NoseType9" invert="false" default="0">
+            <Data name="FemaleHeadNoseType9" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType9</Data>
+        </Slider>
+        <Slider name="NoseType10" invert="false" default="0">
+            <Data name="FemaleHeadNoseType10" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType10</Data>
+        </Slider>
+        <Slider name="NoseType11" invert="false" default="0">
+            <Data name="FemaleHeadNoseType11" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType11</Data>
+        </Slider>
+        <Slider name="NoseType12" invert="false" default="0">
+            <Data name="FemaleHeadNoseType12" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType12</Data>
+        </Slider>
+        <Slider name="NoseType13" invert="false" default="0">
+            <Data name="FemaleHeadNoseType13" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType13</Data>
+        </Slider>
+        <Slider name="NoseType14" invert="false" default="0">
+            <Data name="FemaleHeadNoseType14" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType14</Data>
+        </Slider>
+        <Slider name="NoseType15" invert="false" default="0">
+            <Data name="FemaleHeadNoseType15" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType15</Data>
+        </Slider>
+        <Slider name="NoseType16" invert="false" default="0">
+            <Data name="FemaleHeadNoseType16" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType16</Data>
+        </Slider>
+        <Slider name="NoseType17" invert="false" default="0">
+            <Data name="FemaleHeadNoseType17" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType17</Data>
+        </Slider>
+        <Slider name="NoseType18" invert="false" default="0">
+            <Data name="FemaleHeadNoseType18" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType18</Data>
+        </Slider>
+        <Slider name="NoseType19" invert="false" default="0">
+            <Data name="FemaleHeadNoseType19" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType19</Data>
+        </Slider>
+        <Slider name="NoseType20" invert="false" default="0">
+            <Data name="FemaleHeadNoseType20" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType20</Data>
+        </Slider>
+        <Slider name="NoseType21" invert="false" default="0">
+            <Data name="FemaleHeadNoseType21" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType21</Data>
+        </Slider>
+        <Slider name="NoseType22" invert="false" default="0">
+            <Data name="FemaleHeadNoseType22" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType22</Data>
+        </Slider>
+        <Slider name="NoseType23" invert="false" default="0">
+            <Data name="FemaleHeadNoseType23" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType23</Data>
+        </Slider>
+        <Slider name="NoseType24" invert="false" default="0">
+            <Data name="FemaleHeadNoseType24" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType24</Data>
+        </Slider>
+        <Slider name="NoseType25" invert="false" default="0">
+            <Data name="FemaleHeadNoseType25" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType25</Data>
+        </Slider>
+        <Slider name="NoseType26" invert="false" default="0">
+            <Data name="FemaleHeadNoseType26" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType26</Data>
+        </Slider>
+        <Slider name="NoseType27" invert="false" default="0">
+            <Data name="FemaleHeadNoseType27" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType27</Data>
+        </Slider>
+        <Slider name="NoseType28" invert="false" default="0">
+            <Data name="FemaleHeadNoseType28" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType28</Data>
+        </Slider>
+        <Slider name="NoseType29" invert="false" default="0">
+            <Data name="FemaleHeadNoseType29" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType29</Data>
+        </Slider>
+        <Slider name="NoseType30" invert="false" default="0">
+            <Data name="FemaleHeadNoseType30" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNoseType30</Data>
+        </Slider>
+        <Slider name="LipType1" invert="false" default="0">
+            <Data name="FemaleHeadLipType1" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType1</Data>
+        </Slider>
+        <Slider name="LipType2" invert="false" default="0">
+            <Data name="FemaleHeadLipType2" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType2</Data>
+        </Slider>
+        <Slider name="LipType3" invert="false" default="0">
+            <Data name="FemaleHeadLipType3" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType3</Data>
+        </Slider>
+        <Slider name="LipType4" invert="false" default="0">
+            <Data name="FemaleHeadLipType4" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType4</Data>
+        </Slider>
+        <Slider name="LipType5" invert="false" default="0">
+            <Data name="FemaleHeadLipType5" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType5</Data>
+        </Slider>
+        <Slider name="LipType6" invert="false" default="0">
+            <Data name="FemaleHeadLipType6" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType6</Data>
+        </Slider>
+        <Slider name="LipType7" invert="false" default="0">
+            <Data name="FemaleHeadLipType7" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType7</Data>
+        </Slider>
+        <Slider name="LipType8" invert="false" default="0">
+            <Data name="FemaleHeadLipType8" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType8</Data>
+        </Slider>
+        <Slider name="LipType9" invert="false" default="0">
+            <Data name="FemaleHeadLipType9" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType9</Data>
+        </Slider>
+        <Slider name="LipType10" invert="false" default="0">
+            <Data name="FemaleHeadLipType10" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType10</Data>
+        </Slider>
+        <Slider name="LipType11" invert="false" default="0">
+            <Data name="FemaleHeadLipType11" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType11</Data>
+        </Slider>
+        <Slider name="LipType12" invert="false" default="0">
+            <Data name="FemaleHeadLipType12" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType12</Data>
+        </Slider>
+        <Slider name="LipType13" invert="false" default="0">
+            <Data name="FemaleHeadLipType13" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType13</Data>
+        </Slider>
+        <Slider name="LipType14" invert="false" default="0">
+            <Data name="FemaleHeadLipType14" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType14</Data>
+        </Slider>
+        <Slider name="LipType15" invert="false" default="0">
+            <Data name="FemaleHeadLipType15" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType15</Data>
+        </Slider>
+        <Slider name="LipType16" invert="false" default="0">
+            <Data name="FemaleHeadLipType16" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType16</Data>
+        </Slider>
+        <Slider name="LipType17" invert="false" default="0">
+            <Data name="FemaleHeadLipType17" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType17</Data>
+        </Slider>
+        <Slider name="LipType18" invert="false" default="0">
+            <Data name="FemaleHeadLipType18" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType18</Data>
+        </Slider>
+        <Slider name="LipType19" invert="false" default="0">
+            <Data name="FemaleHeadLipType19" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType19</Data>
+        </Slider>
+        <Slider name="LipType20" invert="false" default="0">
+            <Data name="FemaleHeadLipType20" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType20</Data>
+        </Slider>
+        <Slider name="LipType21" invert="false" default="0">
+            <Data name="FemaleHeadLipType21" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType21</Data>
+        </Slider>
+        <Slider name="LipType22" invert="false" default="0">
+            <Data name="FemaleHeadLipType22" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType22</Data>
+        </Slider>
+        <Slider name="LipType23" invert="false" default="0">
+            <Data name="FemaleHeadLipType23" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType23</Data>
+        </Slider>
+        <Slider name="LipType24" invert="false" default="0">
+            <Data name="FemaleHeadLipType24" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType24</Data>
+        </Slider>
+        <Slider name="LipType25" invert="false" default="0">
+            <Data name="FemaleHeadLipType25" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType25</Data>
+        </Slider>
+        <Slider name="LipType26" invert="false" default="0">
+            <Data name="FemaleHeadLipType26" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType26</Data>
+        </Slider>
+        <Slider name="LipType27" invert="false" default="0">
+            <Data name="FemaleHeadLipType27" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType27</Data>
+        </Slider>
+        <Slider name="LipType28" invert="false" default="0">
+            <Data name="FemaleHeadLipType28" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLipType28</Data>
+        </Slider>
+        <Slider name="EyesType1" invert="false" default="0">
+            <Data name="FemaleHeadEyesType1" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType1</Data>
+        </Slider>
+        <Slider name="EyesType2" invert="false" default="0">
+            <Data name="FemaleHeadEyesType2" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType2</Data>
+        </Slider>
+        <Slider name="EyesType3" invert="false" default="0">
+            <Data name="FemaleHeadEyesType3" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType3</Data>
+        </Slider>
+        <Slider name="EyesType4" invert="false" default="0">
+            <Data name="FemaleHeadEyesType4" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType4</Data>
+        </Slider>
+        <Slider name="EyesType5" invert="false" default="0">
+            <Data name="FemaleHeadEyesType5" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType5</Data>
+        </Slider>
+        <Slider name="EyesType6" invert="false" default="0">
+            <Data name="FemaleHeadEyesType6" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType6</Data>
+        </Slider>
+        <Slider name="EyesType7" invert="false" default="0">
+            <Data name="FemaleHeadEyesType7" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType7</Data>
+        </Slider>
+        <Slider name="EyesType8" invert="false" default="0">
+            <Data name="FemaleHeadEyesType8" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType8</Data>
+        </Slider>
+        <Slider name="EyesType9" invert="false" default="0">
+            <Data name="FemaleHeadEyesType9" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType9</Data>
+        </Slider>
+        <Slider name="EyesType10" invert="false" default="0">
+            <Data name="FemaleHeadEyesType10" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType10</Data>
+        </Slider>
+        <Slider name="EyesType11" invert="false" default="0">
+            <Data name="FemaleHeadEyesType11" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType11</Data>
+        </Slider>
+        <Slider name="EyesType12" invert="false" default="0">
+            <Data name="FemaleHeadEyesType12" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType12</Data>
+        </Slider>
+        <Slider name="EyesType13" invert="false" default="0">
+            <Data name="FemaleHeadEyesType13" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType13</Data>
+        </Slider>
+        <Slider name="EyesType14" invert="false" default="0">
+            <Data name="FemaleHeadEyesType14" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType14</Data>
+        </Slider>
+        <Slider name="EyesType15" invert="false" default="0">
+            <Data name="FemaleHeadEyesType15" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType15</Data>
+        </Slider>
+        <Slider name="EyesType16" invert="false" default="0">
+            <Data name="FemaleHeadEyesType16" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType16</Data>
+        </Slider>
+        <Slider name="EyesType17" invert="false" default="0">
+            <Data name="FemaleHeadEyesType17" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType17</Data>
+        </Slider>
+        <Slider name="EyesType18" invert="false" default="0">
+            <Data name="FemaleHeadEyesType18" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType18</Data>
+        </Slider>
+        <Slider name="EyesType19" invert="false" default="0">
+            <Data name="FemaleHeadEyesType19" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType19</Data>
+        </Slider>
+        <Slider name="EyesType20" invert="false" default="0">
+            <Data name="FemaleHeadEyesType20" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType20</Data>
+        </Slider>
+        <Slider name="EyesType21" invert="false" default="0">
+            <Data name="FemaleHeadEyesType21" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType21</Data>
+        </Slider>
+        <Slider name="EyesType22" invert="false" default="0">
+            <Data name="FemaleHeadEyesType22" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType22</Data>
+        </Slider>
+        <Slider name="EyesType23" invert="false" default="0">
+            <Data name="FemaleHeadEyesType23" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType23</Data>
+        </Slider>
+        <Slider name="EyesType24" invert="false" default="0">
+            <Data name="FemaleHeadEyesType24" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType24</Data>
+        </Slider>
+        <Slider name="EyesType25" invert="false" default="0">
+            <Data name="FemaleHeadEyesType25" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType25</Data>
+        </Slider>
+        <Slider name="EyesType26" invert="false" default="0">
+            <Data name="FemaleHeadEyesType26" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType26</Data>
+        </Slider>
+        <Slider name="EyesType27" invert="false" default="0">
+            <Data name="FemaleHeadEyesType27" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType27</Data>
+        </Slider>
+        <Slider name="EyesType28" invert="false" default="0">
+            <Data name="FemaleHeadEyesType28" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEyesType28</Data>
+        </Slider>
+        <Slider name="RedguardRace" invert="false" default="0">
+            <Data name="FemaleHeadRedguardRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadRedguardRace</Data>
+        </Slider>
+        <Slider name="NordRace" invert="false" default="0">
+            <Data name="FemaleHeadNordRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadNordRace</Data>
+        </Slider>
+        <Slider name="BretonRace" invert="false" default="0">
+            <Data name="FemaleHeadBretonRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBretonRace</Data>
+        </Slider>
+        <Slider name="ImperialRace" invert="false" default="0">
+            <Data name="FemaleHeadImperialRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadImperialRace</Data>
+        </Slider>
+        <Slider name="ElderRace" invert="false" default="0">
+            <Data name="FemaleHeadElderRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadElderRace</Data>
+        </Slider>
+        <Slider name="HighElfRace" invert="false" default="0">
+            <Data name="FemaleHeadHighElfRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadHighElfRace</Data>
+        </Slider>
+        <Slider name="WoodElfRace" invert="false" default="0">
+            <Data name="FemaleHeadWoodElfRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadWoodElfRace</Data>
+        </Slider>
+        <Slider name="DarkElfRace" invert="false" default="0">
+            <Data name="FemaleHeadDarkElfRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadDarkElfRace</Data>
+        </Slider>
+        <Slider name="DremoraRace" invert="false" default="0">
+            <Data name="FemaleHeadDremoraRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadDremoraRace</Data>
+        </Slider>
+        <Slider name="OrcRace" invert="false" default="0">
+            <Data name="FemaleHeadOrcRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadOrcRace</Data>
+        </Slider>
+        <Slider name="EXPR_Aah" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_Aah" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_Aah</Data>
+        </Slider>
+        <Slider name="EXPR_BigAah" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_BigAah" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_BigAah</Data>
+        </Slider>
+        <Slider name="EXPR_BlinkLeft" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_BlinkLeft" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_BlinkLeft</Data>
+        </Slider>
+        <Slider name="EXPR_BlinkRight" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_BlinkRight" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_BlinkRight</Data>
+        </Slider>
+        <Slider name="EXPR_BMP" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_BMP" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_BMP</Data>
+        </Slider>
+        <Slider name="EXPR_BrowDownLeft" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_BrowDownLeft" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_BrowDownLeft</Data>
+        </Slider>
+        <Slider name="EXPR_BrowDownRight" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_BrowDownRight" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_BrowDownRight</Data>
+        </Slider>
+        <Slider name="EXPR_BrowInLeft" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_BrowInLeft" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_BrowInLeft</Data>
+        </Slider>
+        <Slider name="EXPR_BrowInRight" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_BrowInRight" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_BrowInRight</Data>
+        </Slider>
+        <Slider name="EXPR_BrowUpLeft" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_BrowUpLeft" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_BrowUpLeft</Data>
+        </Slider>
+        <Slider name="EXPR_BrowUpRight" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_BrowUpRight" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_BrowUpRight</Data>
+        </Slider>
+        <Slider name="EXPR_ChJSh" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_ChJSh" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_ChJSh</Data>
+        </Slider>
+        <Slider name="EXPR_CombatAnger" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_CombatAnger" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_CombatAnger</Data>
+        </Slider>
+        <Slider name="EXPR_CombatShout" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_CombatShout" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_CombatShout</Data>
+        </Slider>
+        <Slider name="EXPR_DialogueAnger" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_DialogueAnger" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_DialogueAnger</Data>
+        </Slider>
+        <Slider name="EXPR_DialogueDisgusted" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_DialogueDisgusted" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_DialogueDisgusted</Data>
+        </Slider>
+        <Slider name="EXPR_DialogueFear" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_DialogueFear" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_DialogueFear</Data>
+        </Slider>
+        <Slider name="EXPR_DialogueHappy" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_DialogueHappy" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_DialogueHappy</Data>
+        </Slider>
+        <Slider name="EXPR_DialoguePuzzled" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_DialoguePuzzled" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_DialoguePuzzled</Data>
+        </Slider>
+        <Slider name="EXPR_DialogueSad" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_DialogueSad" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_DialogueSad</Data>
+        </Slider>
+        <Slider name="EXPR_DialogueSurprise" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_DialogueSurprise" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_DialogueSurprise</Data>
+        </Slider>
+        <Slider name="EXPR_DST" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_DST" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_DST</Data>
+        </Slider>
+        <Slider name="EXPR_Eee" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_Eee" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_Eee</Data>
+        </Slider>
+        <Slider name="EXPR_Eh" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_Eh" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_Eh</Data>
+        </Slider>
+        <Slider name="EXPR_FV" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_FV" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_FV</Data>
+        </Slider>
+        <Slider name="EXPR_I" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_I" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_I</Data>
+        </Slider>
+        <Slider name="EXPR_K" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_K" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_K</Data>
+        </Slider>
+        <Slider name="EXPR_LookDown" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_LookDown" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_LookDown</Data>
+        </Slider>
+        <Slider name="EXPR_LookUp" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_LookUp" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_LookUp</Data>
+        </Slider>
+        <Slider name="EXPR_MoodAnger" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_MoodAnger" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_MoodAnger</Data>
+        </Slider>
+        <Slider name="EXPR_MoodDisgusted" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_MoodDisgusted" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_MoodDisgusted</Data>
+        </Slider>
+        <Slider name="EXPR_MoodFear" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_MoodFear" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_MoodFear</Data>
+        </Slider>
+        <Slider name="EXPR_MoodHappy" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_MoodHappy" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_MoodHappy</Data>
+        </Slider>
+        <Slider name="EXPR_MoodPuzzled" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_MoodPuzzled" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_MoodPuzzled</Data>
+        </Slider>
+        <Slider name="EXPR_MoodSad" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_MoodSad" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_MoodSad</Data>
+        </Slider>
+        <Slider name="EXPR_MoodSurprise" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_MoodSurprise" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_MoodSurprise</Data>
+        </Slider>
+        <Slider name="EXPR_N" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_N" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_N</Data>
+        </Slider>
+        <Slider name="EXPR_Oh" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_Oh" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_Oh</Data>
+        </Slider>
+        <Slider name="EXPR_OohQ" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_OohQ" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_OohQ</Data>
+        </Slider>
+        <Slider name="EXPR_R" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_R" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_R</Data>
+        </Slider>
+        <Slider name="EXPR_SquintLeft" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_SquintLeft" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_SquintLeft</Data>
+        </Slider>
+        <Slider name="EXPR_SquintRight" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_SquintRight" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_SquintRight</Data>
+        </Slider>
+        <Slider name="EXPR_Th" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_Th" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_Th</Data>
+        </Slider>
+        <Slider name="EXPR_W" invert="false" default="0">
+            <Data name="FemaleHeadEXPR_W" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEXPR_W</Data>
+        </Slider>
+        <Slider name="CME_BretonRace" invert="false" default="0">
+            <Data name="FemaleHeadCME_BretonRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_BretonRace</Data>
+        </Slider>
+        <Slider name="CME_BretonRace_inv" invert="false" default="0">
+            <Data name="FemaleHeadCME_BretonRace_inv" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_BretonRace_inv</Data>
+        </Slider>
+        <Slider name="CME_DarkElfRace" invert="false" default="0">
+            <Data name="FemaleHeadCME_DarkElfRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_DarkElfRace</Data>
+        </Slider>
+        <Slider name="CME_DarkElfRace_inv" invert="false" default="0">
+            <Data name="FemaleHeadCME_DarkElfRace_inv" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_DarkElfRace_inv</Data>
+        </Slider>
+        <Slider name="CME_DremoraRace" invert="false" default="0">
+            <Data name="FemaleHeadCME_DremoraRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_DremoraRace</Data>
+        </Slider>
+        <Slider name="CME_DremoraRace_inv" invert="false" default="0">
+            <Data name="FemaleHeadCME_DremoraRace_inv" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_DremoraRace_inv</Data>
+        </Slider>
+        <Slider name="CME_ElderRace" invert="false" default="0">
+            <Data name="FemaleHeadCME_ElderRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_ElderRace</Data>
+        </Slider>
+        <Slider name="CME_ElderRace_inv" invert="false" default="0">
+            <Data name="FemaleHeadCME_ElderRace_inv" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_ElderRace_inv</Data>
+        </Slider>
+        <Slider name="CME_HighElfRace" invert="false" default="0">
+            <Data name="FemaleHeadCME_HighElfRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_HighElfRace</Data>
+        </Slider>
+        <Slider name="CME_HighElfRace_inv" invert="false" default="0">
+            <Data name="FemaleHeadCME_HighElfRace_inv" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_HighElfRace_inv</Data>
+        </Slider>
+        <Slider name="CME_ImperialRace" invert="false" default="0">
+            <Data name="FemaleHeadCME_ImperialRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_ImperialRace</Data>
+        </Slider>
+        <Slider name="CME_ImperialRace_inv" invert="false" default="0">
+            <Data name="FemaleHeadCME_ImperialRace_inv" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_ImperialRace_inv</Data>
+        </Slider>
+        <Slider name="CME_NordRace" invert="false" default="0">
+            <Data name="FemaleHeadCME_NordRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_NordRace</Data>
+        </Slider>
+        <Slider name="CME_NordRace_inv" invert="false" default="0">
+            <Data name="FemaleHeadCME_NordRace_inv" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_NordRace_inv</Data>
+        </Slider>
+        <Slider name="CME_OrcRace" invert="false" default="0">
+            <Data name="FemaleHeadCME_OrcRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_OrcRace</Data>
+        </Slider>
+        <Slider name="CME_OrcRace_inv" invert="false" default="0">
+            <Data name="FemaleHeadCME_OrcRace_inv" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_OrcRace_inv</Data>
+        </Slider>
+        <Slider name="CME_RedguardRace" invert="false" default="0">
+            <Data name="FemaleHeadCME_RedguardRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_RedguardRace</Data>
+        </Slider>
+        <Slider name="CME_RedguardRace_inv" invert="false" default="0">
+            <Data name="FemaleHeadCME_RedguardRace_inv" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_RedguardRace_inv</Data>
+        </Slider>
+        <Slider name="CME_WoodElfRace" invert="false" default="0">
+            <Data name="FemaleHeadCME_WoodElfRace" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_WoodElfRace</Data>
+        </Slider>
+        <Slider name="CME_WoodElfRace_inv" invert="false" default="0">
+            <Data name="FemaleHeadCME_WoodElfRace_inv" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCME_WoodElfRace_inv</Data>
+        </Slider>
+        <Slider name="SkinnyMorph" invert="false" default="0">
+            <Data name="FemaleHeadSkinnyMorph" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadSkinnyMorph</Data>
+        </Slider>
+        <Slider name="Aah" invert="false" default="0">
+            <Data name="FemaleHeadAah" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadAah</Data>
+        </Slider>
+        <Slider name="BigAah" invert="false" default="0">
+            <Data name="FemaleHeadBigAah" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBigAah</Data>
+        </Slider>
+        <Slider name="BlinkLeft" invert="false" default="0">
+            <Data name="FemaleHeadBlinkLeft" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBlinkLeft</Data>
+        </Slider>
+        <Slider name="BlinkRight" invert="false" default="0">
+            <Data name="FemaleHeadBlinkRight" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBlinkRight</Data>
+        </Slider>
+        <Slider name="BMP" invert="false" default="0">
+            <Data name="FemaleHeadBMP" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBMP</Data>
+        </Slider>
+        <Slider name="BrowDownLeft" invert="false" default="0">
+            <Data name="FemaleHeadBrowDownLeft" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBrowDownLeft</Data>
+        </Slider>
+        <Slider name="BrowDownRight" invert="false" default="0">
+            <Data name="FemaleHeadBrowDownRight" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBrowDownRight</Data>
+        </Slider>
+        <Slider name="BrowInLeft" invert="false" default="0">
+            <Data name="FemaleHeadBrowInLeft" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBrowInLeft</Data>
+        </Slider>
+        <Slider name="BrowInRight" invert="false" default="0">
+            <Data name="FemaleHeadBrowInRight" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBrowInRight</Data>
+        </Slider>
+        <Slider name="BrowUpLeft" invert="false" default="0">
+            <Data name="FemaleHeadBrowUpLeft" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBrowUpLeft</Data>
+        </Slider>
+        <Slider name="BrowUpRight" invert="false" default="0">
+            <Data name="FemaleHeadBrowUpRight" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadBrowUpRight</Data>
+        </Slider>
+        <Slider name="ChJSh" invert="false" default="0">
+            <Data name="FemaleHeadChJSh" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadChJSh</Data>
+        </Slider>
+        <Slider name="CombatAnger" invert="false" default="0">
+            <Data name="FemaleHeadCombatAnger" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCombatAnger</Data>
+        </Slider>
+        <Slider name="CombatShout" invert="false" default="0">
+            <Data name="FemaleHeadCombatShout" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadCombatShout</Data>
+        </Slider>
+        <Slider name="DialogueAnger" invert="false" default="0">
+            <Data name="FemaleHeadDialogueAnger" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadDialogueAnger</Data>
+        </Slider>
+        <Slider name="DialogueDisgusted" invert="false" default="0">
+            <Data name="FemaleHeadDialogueDisgusted" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadDialogueDisgusted</Data>
+        </Slider>
+        <Slider name="DialogueFear" invert="false" default="0">
+            <Data name="FemaleHeadDialogueFear" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadDialogueFear</Data>
+        </Slider>
+        <Slider name="DialogueHappy" invert="false" default="0">
+            <Data name="FemaleHeadDialogueHappy" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadDialogueHappy</Data>
+        </Slider>
+        <Slider name="DialoguePuzzled" invert="false" default="0">
+            <Data name="FemaleHeadDialoguePuzzled" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadDialoguePuzzled</Data>
+        </Slider>
+        <Slider name="DialogueSad" invert="false" default="0">
+            <Data name="FemaleHeadDialogueSad" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadDialogueSad</Data>
+        </Slider>
+        <Slider name="DialogueSurprise" invert="false" default="0">
+            <Data name="FemaleHeadDialogueSurprise" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadDialogueSurprise</Data>
+        </Slider>
+        <Slider name="DST" invert="false" default="0">
+            <Data name="FemaleHeadDST" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadDST</Data>
+        </Slider>
+        <Slider name="Eee" invert="false" default="0">
+            <Data name="FemaleHeadEee" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEee</Data>
+        </Slider>
+        <Slider name="Eh" invert="false" default="0">
+            <Data name="FemaleHeadEh" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadEh</Data>
+        </Slider>
+        <Slider name="FV" invert="false" default="0">
+            <Data name="FemaleHeadFV" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadFV</Data>
+        </Slider>
+        <Slider name="I" invert="false" default="0">
+            <Data name="FemaleHeadI" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadI</Data>
+        </Slider>
+        <Slider name="K" invert="false" default="0">
+            <Data name="FemaleHeadK" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadK</Data>
+        </Slider>
+        <Slider name="LookDown" invert="false" default="0">
+            <Data name="FemaleHeadLookDown" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLookDown</Data>
+        </Slider>
+        <Slider name="LookUp" invert="false" default="0">
+            <Data name="FemaleHeadLookUp" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadLookUp</Data>
+        </Slider>
+        <Slider name="MoodAnger" invert="false" default="0">
+            <Data name="FemaleHeadMoodAnger" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadMoodAnger</Data>
+        </Slider>
+        <Slider name="MoodDisgusted" invert="false" default="0">
+            <Data name="FemaleHeadMoodDisgusted" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadMoodDisgusted</Data>
+        </Slider>
+        <Slider name="MoodFear" invert="false" default="0">
+            <Data name="FemaleHeadMoodFear" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadMoodFear</Data>
+        </Slider>
+        <Slider name="MoodHappy" invert="false" default="0">
+            <Data name="FemaleHeadMoodHappy" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadMoodHappy</Data>
+        </Slider>
+        <Slider name="MoodPuzzled" invert="false" default="0">
+            <Data name="FemaleHeadMoodPuzzled" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadMoodPuzzled</Data>
+        </Slider>
+        <Slider name="MoodSad" invert="false" default="0">
+            <Data name="FemaleHeadMoodSad" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadMoodSad</Data>
+        </Slider>
+        <Slider name="MoodSurprise" invert="false" default="0">
+            <Data name="FemaleHeadMoodSurprise" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadMoodSurprise</Data>
+        </Slider>
+        <Slider name="N" invert="false" default="0">
+            <Data name="FemaleHeadN" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadN</Data>
+        </Slider>
+        <Slider name="Oh" invert="false" default="0">
+            <Data name="FemaleHeadOh" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadOh</Data>
+        </Slider>
+        <Slider name="OohQ" invert="false" default="0">
+            <Data name="FemaleHeadOohQ" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadOohQ</Data>
+        </Slider>
+        <Slider name="R" invert="false" default="0">
+            <Data name="FemaleHeadR" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadR</Data>
+        </Slider>
+        <Slider name="SquintLeft" invert="false" default="0">
+            <Data name="FemaleHeadSquintLeft" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadSquintLeft</Data>
+        </Slider>
+        <Slider name="SquintRight" invert="false" default="0">
+            <Data name="FemaleHeadSquintRight" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadSquintRight</Data>
+        </Slider>
+        <Slider name="Th" invert="false" default="0">
+            <Data name="FemaleHeadTh" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadTh</Data>
+        </Slider>
+        <Slider name="W" invert="false" default="0">
+            <Data name="FemaleHeadW" target="FemaleHead" local="true">HeadRef.osd\FemaleHeadW</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

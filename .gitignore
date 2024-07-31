@@ -1,0 +1,11 @@
+.idea
+.vs
+.vscode/settings.json
+build
+cmake-build*
+*Papyrus*/
+*BUILD_*
+*/plugins/HeadSlide.dll
+*/plugins/HeadSlide.pdb
+.clang-format
+.vscode/*
