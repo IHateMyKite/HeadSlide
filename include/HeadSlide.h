@@ -9,8 +9,15 @@ namespace HESL
     public:
         void Init();
         static void UpdatePlayer(RE::Actor* a_actor, float a_delta);
-        void UpdateActor(RE::Actor* a_actor);
+        void UpdateActor(RE::Actor* a_actor, float a_delta);
 
+        bool UpdateSlidersMorphsElapsed(RE::Actor* a_actor, float a_delta);
+        void UpdateSlidersMorphs(RE::Actor* a_actor);
+
+        void UpdateExpression(RE::Actor* a_actor);
+
+
+        void SetActorsMorphs(RE::Actor* a_actor);
     public:
         const std::vector<std::pair<std::string,std::string>> defaultsliders = 
         {
@@ -85,8 +92,11 @@ namespace HESL
         static void UpdateHeadSlide(PAPYRUSFUNCHANDLE, RE::Actor* a_actor);
 
     private:
+        bool _init = false;
         static REL::Relocation<decltype(UpdatePlayer)> UpdatePlayer_old;
         RM::FaceMorphInterface*     _faceinterface  = nullptr;
         RM::IBodyMorphInterface*    _morphinterface = nullptr;
+
+        float _slidermorphtimer = 0.0f;
     };
 }

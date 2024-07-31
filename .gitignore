@@ -9,3 +9,4 @@ cmake-build*
 */plugins/HeadSlide.pdb
 .clang-format
 .vscode/*
+*pex

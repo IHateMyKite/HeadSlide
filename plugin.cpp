@@ -27,6 +27,7 @@ SKSEPluginLoad(const SKSE::LoadInterface *skse) {
             // Game loaded
             case 3:
             {
+                HESL::Config::GetSingleton()->Setup();
                 HESL::HeadSlide::GetSingleton()->Init();
             }
         }

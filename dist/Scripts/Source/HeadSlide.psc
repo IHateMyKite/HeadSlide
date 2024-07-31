@@ -13,9 +13,9 @@ Function OnHeadUpdate()
         return
     endif
     loc_updatemutex = true
-    Utility.waitMenuMode(0.5)
+    Utility.waitMenuMode(0.1)
     
-    ; TODO: Call native function
+    HeadSlideNative.UpdateHeadSlide(_target)
     
     if UI.IsMenuOpen("RaceSex Menu")
         _SendUpdateEvent()
@@ -23,13 +23,10 @@ Function OnHeadUpdate()
     loc_updatemutex = false
 EndFunction
 
+Actor _target
 Event OnInitializeMenu(Actor player, ActorBase playerBase)
-    ConsoleUtils.PrintMessage("OnInitializeMenu")
+    _target = player
+    ConsoleUtil.PrintMessage("OnInitializeMenu")
     RegisterForModEvent("HeadSlide_UpdateEvent", "OnHeadUpdate")
     OnHeadUpdate()
-EndEvent
-
-Event OnResetMenu(Actor player, ActorBase playerBase)
-    ConsoleUtils.PrintMessage("OnResetMenu")
-    UnregisterForModEvent("HeadSlide_UpdateEvent")
 EndEvent

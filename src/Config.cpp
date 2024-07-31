@@ -13,9 +13,9 @@ void Config::Setup()
     _config = boost::property_tree::ptree();
     try
     {
-        boost::property_tree::ini_parser::read_ini("Data\\skse\\plugins\\UDNative.ini", _config);
+        boost::property_tree::ini_parser::read_ini("Data\\skse\\plugins\\HeadSlide.ini", _config);
         _ready = true;
-        DEBUG("UDNative.ini loaded succesfully")
+        DEBUG("HeadSlide.ini loaded succesfully")
     }
     catch( std::exception &ex )
     {
