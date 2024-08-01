@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="HeadRefMaleKhajit HPH">
+        <DataFolder>HeadRefMaleKhajit HPH</DataFolder>
+        <SourceFile>HeadRefMaleKhajit HPH.nif</SourceFile>
+        <OutputPath>meshes</OutputPath>
+        <OutputFile GenWeights="false">HeadRefMaleKhajitHPH</OutputFile>
+        <Shape target="_Neutral_KLH">_Neutral_KLH</Shape>
+        <Slider name="Aah" invert="false" default="0">
+            <Data name="_Neutral_KLHAah" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHAah</Data>
+        </Slider>
+        <Slider name="BigAah" invert="false" default="0">
+            <Data name="_Neutral_KLHBigAah" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBigAah</Data>
+        </Slider>
+        <Slider name="BlinkLeft" invert="false" default="0">
+            <Data name="_Neutral_KLHBlinkLeft" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBlinkLeft</Data>
+        </Slider>
+        <Slider name="BlinkRight" invert="false" default="0">
+            <Data name="_Neutral_KLHBlinkRight" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBlinkRight</Data>
+        </Slider>
+        <Slider name="BMP" invert="false" default="0">
+            <Data name="_Neutral_KLHBMP" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBMP</Data>
+        </Slider>
+        <Slider name="BrowDownLeft" invert="false" default="0">
+            <Data name="_Neutral_KLHBrowDownLeft" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBrowDownLeft</Data>
+        </Slider>
+        <Slider name="BrowDownRight" invert="false" default="0">
+            <Data name="_Neutral_KLHBrowDownRight" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBrowDownRight</Data>
+        </Slider>
+        <Slider name="BrowInLeft" invert="false" default="0">
+            <Data name="_Neutral_KLHBrowInLeft" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBrowInLeft</Data>
+        </Slider>
+        <Slider name="BrowInRight" invert="false" default="0">
+            <Data name="_Neutral_KLHBrowInRight" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBrowInRight</Data>
+        </Slider>
+        <Slider name="BrowUpLeft" invert="false" default="0">
+            <Data name="_Neutral_KLHBrowUpLeft" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBrowUpLeft</Data>
+        </Slider>
+        <Slider name="BrowUpRight" invert="false" default="0">
+            <Data name="_Neutral_KLHBrowUpRight" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBrowUpRight</Data>
+        </Slider>
+        <Slider name="ChJSh" invert="false" default="0">
+            <Data name="_Neutral_KLHChJSh" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHChJSh</Data>
+        </Slider>
+        <Slider name="CombatAnger" invert="false" default="0">
+            <Data name="_Neutral_KLHCombatAnger" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHCombatAnger</Data>
+        </Slider>
+        <Slider name="CombatShout" invert="false" default="0">
+            <Data name="_Neutral_KLHCombatShout" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHCombatShout</Data>
+        </Slider>
+        <Slider name="DialogueAnger" invert="false" default="0">
+            <Data name="_Neutral_KLHDialogueAnger" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHDialogueAnger</Data>
+        </Slider>
+        <Slider name="DialogueDisgusted" invert="false" default="0">
+            <Data name="_Neutral_KLHDialogueDisgusted" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHDialogueDisgusted</Data>
+        </Slider>
+        <Slider name="DialogueFear" invert="false" default="0">
+            <Data name="_Neutral_KLHDialogueFear" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHDialogueFear</Data>
+        </Slider>
+        <Slider name="DialogueHappy" invert="false" default="0">
+            <Data name="_Neutral_KLHDialogueHappy" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHDialogueHappy</Data>
+        </Slider>
+        <Slider name="DialoguePuzzled" invert="false" default="0">
+            <Data name="_Neutral_KLHDialoguePuzzled" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHDialoguePuzzled</Data>
+        </Slider>
+        <Slider name="DialogueSad" invert="false" default="0">
+            <Data name="_Neutral_KLHDialogueSad" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHDialogueSad</Data>
+        </Slider>
+        <Slider name="DialogueSurprise" invert="false" default="0">
+            <Data name="_Neutral_KLHDialogueSurprise" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHDialogueSurprise</Data>
+        </Slider>
+        <Slider name="DST" invert="false" default="0">
+            <Data name="_Neutral_KLHDST" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHDST</Data>
+        </Slider>
+        <Slider name="Eee" invert="false" default="0">
+            <Data name="_Neutral_KLHEee" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEee</Data>
+        </Slider>
+        <Slider name="Eh" invert="false" default="0">
+            <Data name="_Neutral_KLHEh" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEh</Data>
+        </Slider>
+        <Slider name="FV" invert="false" default="0">
+            <Data name="_Neutral_KLHFV" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHFV</Data>
+        </Slider>
+        <Slider name="I" invert="false" default="0">
+            <Data name="_Neutral_KLHI" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHI</Data>
+        </Slider>
+        <Slider name="K" invert="false" default="0">
+            <Data name="_Neutral_KLHK" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHK</Data>
+        </Slider>
+        <Slider name="LookDown" invert="false" default="0">
+            <Data name="_Neutral_KLHLookDown" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLookDown</Data>
+        </Slider>
+        <Slider name="LookLeft" invert="false" default="0">
+            <Data name="_Neutral_KLHLookLeft" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLookLeft</Data>
+        </Slider>
+        <Slider name="LookRight" invert="false" default="0">
+            <Data name="_Neutral_KLHLookRight" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLookRight</Data>
+        </Slider>
+        <Slider name="LookUp" invert="false" default="0">
+            <Data name="_Neutral_KLHLookUp" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLookUp</Data>
+        </Slider>
+        <Slider name="MoodAnger" invert="false" default="0">
+            <Data name="_Neutral_KLHMoodAnger" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHMoodAnger</Data>
+        </Slider>
+        <Slider name="MoodDisgusted" invert="false" default="0">
+            <Data name="_Neutral_KLHMoodDisgusted" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHMoodDisgusted</Data>
+        </Slider>
+        <Slider name="MoodFear" invert="false" default="0">
+            <Data name="_Neutral_KLHMoodFear" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHMoodFear</Data>
+        </Slider>
+        <Slider name="MoodHappy" invert="false" default="0">
+            <Data name="_Neutral_KLHMoodHappy" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHMoodHappy</Data>
+        </Slider>
+        <Slider name="MoodPuzzled" invert="false" default="0">
+            <Data name="_Neutral_KLHMoodPuzzled" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHMoodPuzzled</Data>
+        </Slider>
+        <Slider name="MoodSad" invert="false" default="0">
+            <Data name="_Neutral_KLHMoodSad" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHMoodSad</Data>
+        </Slider>
+        <Slider name="MoodSurprise" invert="false" default="0">
+            <Data name="_Neutral_KLHMoodSurprise" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHMoodSurprise</Data>
+        </Slider>
+        <Slider name="N" invert="false" default="0">
+            <Data name="_Neutral_KLHN" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHN</Data>
+        </Slider>
+        <Slider name="Oh" invert="false" default="0">
+            <Data name="_Neutral_KLHOh" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHOh</Data>
+        </Slider>
+        <Slider name="OohQ" invert="false" default="0">
+            <Data name="_Neutral_KLHOohQ" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHOohQ</Data>
+        </Slider>
+        <Slider name="R" invert="false" default="0">
+            <Data name="_Neutral_KLHR" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHR</Data>
+        </Slider>
+        <Slider name="SkinnyMorph" invert="false" default="0">
+            <Data name="_Neutral_KLHSkinnyMorph" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHSkinnyMorph</Data>
+        </Slider>
+        <Slider name="SquintLeft" invert="false" default="0">
+            <Data name="_Neutral_KLHSquintLeft" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHSquintLeft</Data>
+        </Slider>
+        <Slider name="SquintRight" invert="false" default="0">
+            <Data name="_Neutral_KLHSquintRight" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHSquintRight</Data>
+        </Slider>
+        <Slider name="Th" invert="false" default="0">
+            <Data name="_Neutral_KLHTh" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHTh</Data>
+        </Slider>
+        <Slider name="W" invert="false" default="0">
+            <Data name="_Neutral_KLHW" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHW</Data>
+        </Slider>
+        <Slider name="VampireMorph" invert="false" default="0">
+            <Data name="_Neutral_KLHVampireMorph" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHVampireMorph</Data>
+        </Slider>
+        <Slider name="BrowBack" invert="false" default="0">
+            <Data name="_Neutral_KLHBrowBack" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBrowBack</Data>
+        </Slider>
+        <Slider name="BrowForward" invert="false" default="0">
+            <Data name="_Neutral_KLHBrowForward" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBrowForward</Data>
+        </Slider>
+        <Slider name="BrowIn" invert="false" default="0">
+            <Data name="_Neutral_KLHBrowIn" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBrowIn</Data>
+        </Slider>
+        <Slider name="BrowOut" invert="false" default="0">
+            <Data name="_Neutral_KLHBrowOut" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBrowOut</Data>
+        </Slider>
+        <Slider name="BrowDown" invert="false" default="0">
+            <Data name="_Neutral_KLHBrowDown" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBrowDown</Data>
+        </Slider>
+        <Slider name="BrowUp" invert="false" default="0">
+            <Data name="_Neutral_KLHBrowUp" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHBrowUp</Data>
+        </Slider>
+        <Slider name="CheeksDown" invert="false" default="0">
+            <Data name="_Neutral_KLHCheeksDown" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHCheeksDown</Data>
+        </Slider>
+        <Slider name="CheeksIn" invert="false" default="0">
+            <Data name="_Neutral_KLHCheeksIn" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHCheeksIn</Data>
+        </Slider>
+        <Slider name="CheeksOut" invert="false" default="0">
+            <Data name="_Neutral_KLHCheeksOut" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHCheeksOut</Data>
+        </Slider>
+        <Slider name="ChinMoveDown" invert="false" default="0">
+            <Data name="_Neutral_KLHChinMoveDown" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHChinMoveDown</Data>
+        </Slider>
+        <Slider name="ChinMoveUp" invert="false" default="0">
+            <Data name="_Neutral_KLHChinMoveUp" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHChinMoveUp</Data>
+        </Slider>
+        <Slider name="ChinThin" invert="false" default="0">
+            <Data name="_Neutral_KLHChinThin" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHChinThin</Data>
+        </Slider>
+        <Slider name="ChinWide" invert="false" default="0">
+            <Data name="_Neutral_KLHChinWide" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHChinWide</Data>
+        </Slider>
+        <Slider name="EyesBack" invert="false" default="0">
+            <Data name="_Neutral_KLHEyesBack" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEyesBack</Data>
+        </Slider>
+        <Slider name="EyesForward" invert="false" default="0">
+            <Data name="_Neutral_KLHEyesForward" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEyesForward</Data>
+        </Slider>
+        <Slider name="EyesMoveDown" invert="false" default="0">
+            <Data name="_Neutral_KLHEyesMoveDown" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEyesMoveDown</Data>
+        </Slider>
+        <Slider name="EyesMoveIn" invert="false" default="0">
+            <Data name="_Neutral_KLHEyesMoveIn" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEyesMoveIn</Data>
+        </Slider>
+        <Slider name="EyesMoveOut" invert="false" default="0">
+            <Data name="_Neutral_KLHEyesMoveOut" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEyesMoveOut</Data>
+        </Slider>
+        <Slider name="EyesMoveUp" invert="false" default="0">
+            <Data name="_Neutral_KLHEyesMoveUp" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEyesMoveUp</Data>
+        </Slider>
+        <Slider name="EyesType1" invert="false" default="0">
+            <Data name="_Neutral_KLHEyesType1" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEyesType1</Data>
+        </Slider>
+        <Slider name="EyesType2" invert="false" default="0">
+            <Data name="_Neutral_KLHEyesType2" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEyesType2</Data>
+        </Slider>
+        <Slider name="EyesType3" invert="false" default="0">
+            <Data name="_Neutral_KLHEyesType3" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEyesType3</Data>
+        </Slider>
+        <Slider name="EyesType4" invert="false" default="0">
+            <Data name="_Neutral_KLHEyesType4" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEyesType4</Data>
+        </Slider>
+        <Slider name="EyesType5" invert="false" default="0">
+            <Data name="_Neutral_KLHEyesType5" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHEyesType5</Data>
+        </Slider>
+        <Slider name="JawBack" invert="false" default="0">
+            <Data name="_Neutral_KLHJawBack" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHJawBack</Data>
+        </Slider>
+        <Slider name="JawDown" invert="false" default="0">
+            <Data name="_Neutral_KLHJawDown" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHJawDown</Data>
+        </Slider>
+        <Slider name="JawForward" invert="false" default="0">
+            <Data name="_Neutral_KLHJawForward" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHJawForward</Data>
+        </Slider>
+        <Slider name="JawNarrow" invert="false" default="0">
+            <Data name="_Neutral_KLHJawNarrow" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHJawNarrow</Data>
+        </Slider>
+        <Slider name="JawUp" invert="false" default="0">
+            <Data name="_Neutral_KLHJawUp" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHJawUp</Data>
+        </Slider>
+        <Slider name="JawWide" invert="false" default="0">
+            <Data name="_Neutral_KLHJawWide" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHJawWide</Data>
+        </Slider>
+        <Slider name="LipMoveDown" invert="false" default="0">
+            <Data name="_Neutral_KLHLipMoveDown" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLipMoveDown</Data>
+        </Slider>
+        <Slider name="LipMoveIn" invert="false" default="0">
+            <Data name="_Neutral_KLHLipMoveIn" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLipMoveIn</Data>
+        </Slider>
+        <Slider name="LipMoveOut" invert="false" default="0">
+            <Data name="_Neutral_KLHLipMoveOut" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLipMoveOut</Data>
+        </Slider>
+        <Slider name="LipMoveUp" invert="false" default="0">
+            <Data name="_Neutral_KLHLipMoveUp" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLipMoveUp</Data>
+        </Slider>
+        <Slider name="LipType1" invert="false" default="0">
+            <Data name="_Neutral_KLHLipType1" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLipType1</Data>
+        </Slider>
+        <Slider name="LipType2" invert="false" default="0">
+            <Data name="_Neutral_KLHLipType2" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLipType2</Data>
+        </Slider>
+        <Slider name="LipType3" invert="false" default="0">
+            <Data name="_Neutral_KLHLipType3" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLipType3</Data>
+        </Slider>
+        <Slider name="LipType4" invert="false" default="0">
+            <Data name="_Neutral_KLHLipType4" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLipType4</Data>
+        </Slider>
+        <Slider name="LipType5" invert="false" default="0">
+            <Data name="_Neutral_KLHLipType5" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHLipType5</Data>
+        </Slider>
+        <Slider name="NoseDown" invert="false" default="0">
+            <Data name="_Neutral_KLHNoseDown" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHNoseDown</Data>
+        </Slider>
+        <Slider name="NoseLong" invert="false" default="0">
+            <Data name="_Neutral_KLHNoseLong" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHNoseLong</Data>
+        </Slider>
+        <Slider name="NoseShort" invert="false" default="0">
+            <Data name="_Neutral_KLHNoseShort" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHNoseShort</Data>
+        </Slider>
+        <Slider name="NoseType1" invert="false" default="0">
+            <Data name="_Neutral_KLHNoseType1" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHNoseType1</Data>
+        </Slider>
+        <Slider name="NoseType2" invert="false" default="0">
+            <Data name="_Neutral_KLHNoseType2" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHNoseType2</Data>
+        </Slider>
+        <Slider name="NoseType3" invert="false" default="0">
+            <Data name="_Neutral_KLHNoseType3" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHNoseType3</Data>
+        </Slider>
+        <Slider name="NoseType4" invert="false" default="0">
+            <Data name="_Neutral_KLHNoseType4" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHNoseType4</Data>
+        </Slider>
+        <Slider name="NoseType5" invert="false" default="0">
+            <Data name="_Neutral_KLHNoseType5" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHNoseType5</Data>
+        </Slider>
+        <Slider name="NoseUp" invert="false" default="0">
+            <Data name="_Neutral_KLHNoseUp" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHNoseUp</Data>
+        </Slider>
+        <Slider name="Underbite" invert="false" default="0">
+            <Data name="_Neutral_KLHUnderbite" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHUnderbite</Data>
+        </Slider>
+        <Slider name="CheeksUp" invert="false" default="0">
+            <Data name="_Neutral_KLHCheeksUp" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHCheeksUp</Data>
+        </Slider>
+        <Slider name="Overbite" invert="false" default="0">
+            <Data name="_Neutral_KLHOverbite" target="_Neutral_KLH" local="true">HeadRefMaleKhajit HPH.osd\_Neutral_KLHOverbite</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

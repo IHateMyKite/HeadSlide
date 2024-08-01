@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="HeadRefArgonian HPH">
+        <DataFolder>HeadRefArgonian HPH</DataFolder>
+        <SourceFile>HeadRefArgonian HPH.nif</SourceFile>
+        <OutputPath>meshes</OutputPath>
+        <OutputFile GenWeights="false">HeadRefArgonianHPH</OutputFile>
+        <Shape target="FemaleHeadArgonian_KLH">FemaleHeadArgonian_KLH</Shape>
+        <Slider name="Aah" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHAah" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHAah</Data>
+        </Slider>
+        <Slider name="BigAah" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBigAah" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBigAah</Data>
+        </Slider>
+        <Slider name="BlinkLeft" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBlinkLeft" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBlinkLeft</Data>
+        </Slider>
+        <Slider name="BlinkRight" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBlinkRight" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBlinkRight</Data>
+        </Slider>
+        <Slider name="BMP" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBMP" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBMP</Data>
+        </Slider>
+        <Slider name="BrowDownLeft" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBrowDownLeft" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBrowDownLeft</Data>
+        </Slider>
+        <Slider name="BrowDownRight" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBrowDownRight" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBrowDownRight</Data>
+        </Slider>
+        <Slider name="BrowInLeft" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBrowInLeft" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBrowInLeft</Data>
+        </Slider>
+        <Slider name="BrowInRight" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBrowInRight" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBrowInRight</Data>
+        </Slider>
+        <Slider name="BrowUpLeft" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBrowUpLeft" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBrowUpLeft</Data>
+        </Slider>
+        <Slider name="BrowUpRight" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBrowUpRight" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBrowUpRight</Data>
+        </Slider>
+        <Slider name="ChJSh" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHChJSh" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHChJSh</Data>
+        </Slider>
+        <Slider name="CombatAnger" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHCombatAnger" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHCombatAnger</Data>
+        </Slider>
+        <Slider name="CombatShout" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHCombatShout" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHCombatShout</Data>
+        </Slider>
+        <Slider name="DialogueAnger" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHDialogueAnger" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHDialogueAnger</Data>
+        </Slider>
+        <Slider name="DialogueDisgusted" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHDialogueDisgusted" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHDialogueDisgusted</Data>
+        </Slider>
+        <Slider name="DialogueFear" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHDialogueFear" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHDialogueFear</Data>
+        </Slider>
+        <Slider name="DialogueHappy" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHDialogueHappy" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHDialogueHappy</Data>
+        </Slider>
+        <Slider name="DialoguePuzzled" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHDialoguePuzzled" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHDialoguePuzzled</Data>
+        </Slider>
+        <Slider name="DialogueSad" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHDialogueSad" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHDialogueSad</Data>
+        </Slider>
+        <Slider name="DialogueSurprise" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHDialogueSurprise" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHDialogueSurprise</Data>
+        </Slider>
+        <Slider name="DST" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHDST" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHDST</Data>
+        </Slider>
+        <Slider name="Eee" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEee" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEee</Data>
+        </Slider>
+        <Slider name="Eh" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEh" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEh</Data>
+        </Slider>
+        <Slider name="FV" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHFV" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHFV</Data>
+        </Slider>
+        <Slider name="I" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHI" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHI</Data>
+        </Slider>
+        <Slider name="K" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHK" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHK</Data>
+        </Slider>
+        <Slider name="LookDown" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLookDown" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLookDown</Data>
+        </Slider>
+        <Slider name="LookLeft" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLookLeft" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLookLeft</Data>
+        </Slider>
+        <Slider name="LookRight" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLookRight" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLookRight</Data>
+        </Slider>
+        <Slider name="LookUp" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLookUp" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLookUp</Data>
+        </Slider>
+        <Slider name="MoodAnger" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHMoodAnger" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHMoodAnger</Data>
+        </Slider>
+        <Slider name="MoodDisgusted" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHMoodDisgusted" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHMoodDisgusted</Data>
+        </Slider>
+        <Slider name="MoodFear" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHMoodFear" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHMoodFear</Data>
+        </Slider>
+        <Slider name="MoodHappy" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHMoodHappy" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHMoodHappy</Data>
+        </Slider>
+        <Slider name="MoodPuzzled" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHMoodPuzzled" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHMoodPuzzled</Data>
+        </Slider>
+        <Slider name="MoodSad" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHMoodSad" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHMoodSad</Data>
+        </Slider>
+        <Slider name="MoodSurprise" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHMoodSurprise" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHMoodSurprise</Data>
+        </Slider>
+        <Slider name="N" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHN" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHN</Data>
+        </Slider>
+        <Slider name="Oh" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHOh" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHOh</Data>
+        </Slider>
+        <Slider name="OohQ" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHOohQ" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHOohQ</Data>
+        </Slider>
+        <Slider name="R" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHR" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHR</Data>
+        </Slider>
+        <Slider name="SkinnyMorph" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHSkinnyMorph" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHSkinnyMorph</Data>
+        </Slider>
+        <Slider name="SquintLeft" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHSquintLeft" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHSquintLeft</Data>
+        </Slider>
+        <Slider name="SquintRight" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHSquintRight" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHSquintRight</Data>
+        </Slider>
+        <Slider name="Th" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHTh" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHTh</Data>
+        </Slider>
+        <Slider name="W" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHW" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHW</Data>
+        </Slider>
+        <Slider name="BrowBack" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBrowBack" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBrowBack</Data>
+        </Slider>
+        <Slider name="BrowDown" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBrowDown" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBrowDown</Data>
+        </Slider>
+        <Slider name="BrowForward" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBrowForward" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBrowForward</Data>
+        </Slider>
+        <Slider name="BrowIn" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBrowIn" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBrowIn</Data>
+        </Slider>
+        <Slider name="BrowOut" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBrowOut" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBrowOut</Data>
+        </Slider>
+        <Slider name="BrowUp" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHBrowUp" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHBrowUp</Data>
+        </Slider>
+        <Slider name="CheeksDown" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHCheeksDown" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHCheeksDown</Data>
+        </Slider>
+        <Slider name="CheeksIn" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHCheeksIn" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHCheeksIn</Data>
+        </Slider>
+        <Slider name="CheeksOut" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHCheeksOut" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHCheeksOut</Data>
+        </Slider>
+        <Slider name="CheeksUp" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHCheeksUp" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHCheeksUp</Data>
+        </Slider>
+        <Slider name="ChinMoveDown" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHChinMoveDown" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHChinMoveDown</Data>
+        </Slider>
+        <Slider name="ChinMoveUp" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHChinMoveUp" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHChinMoveUp</Data>
+        </Slider>
+        <Slider name="ChinThin" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHChinThin" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHChinThin</Data>
+        </Slider>
+        <Slider name="ChinWide" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHChinWide" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHChinWide</Data>
+        </Slider>
+        <Slider name="EyesBack" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEyesBack" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEyesBack</Data>
+        </Slider>
+        <Slider name="EyesForward" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEyesForward" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEyesForward</Data>
+        </Slider>
+        <Slider name="EyesMoveDown" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEyesMoveDown" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEyesMoveDown</Data>
+        </Slider>
+        <Slider name="EyesMoveIn" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEyesMoveIn" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEyesMoveIn</Data>
+        </Slider>
+        <Slider name="EyesMoveOut" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEyesMoveOut" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEyesMoveOut</Data>
+        </Slider>
+        <Slider name="EyesMoveUp" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEyesMoveUp" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEyesMoveUp</Data>
+        </Slider>
+        <Slider name="EyesType1" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEyesType1" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEyesType1</Data>
+        </Slider>
+        <Slider name="EyesType2" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEyesType2" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEyesType2</Data>
+        </Slider>
+        <Slider name="EyesType3" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEyesType3" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEyesType3</Data>
+        </Slider>
+        <Slider name="EyesType4" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEyesType4" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEyesType4</Data>
+        </Slider>
+        <Slider name="EyesType5" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHEyesType5" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHEyesType5</Data>
+        </Slider>
+        <Slider name="JawBack" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHJawBack" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHJawBack</Data>
+        </Slider>
+        <Slider name="JawDown" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHJawDown" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHJawDown</Data>
+        </Slider>
+        <Slider name="JawForward" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHJawForward" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHJawForward</Data>
+        </Slider>
+        <Slider name="JawNarrow" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHJawNarrow" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHJawNarrow</Data>
+        </Slider>
+        <Slider name="JawWide" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHJawWide" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHJawWide</Data>
+        </Slider>
+        <Slider name="LipMoveDown" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLipMoveDown" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLipMoveDown</Data>
+        </Slider>
+        <Slider name="LipMoveIn" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLipMoveIn" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLipMoveIn</Data>
+        </Slider>
+        <Slider name="LipMoveOut" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLipMoveOut" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLipMoveOut</Data>
+        </Slider>
+        <Slider name="LipMoveUp" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLipMoveUp" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLipMoveUp</Data>
+        </Slider>
+        <Slider name="NoseDown" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHNoseDown" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHNoseDown</Data>
+        </Slider>
+        <Slider name="NoseLong" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHNoseLong" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHNoseLong</Data>
+        </Slider>
+        <Slider name="NoseShort" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHNoseShort" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHNoseShort</Data>
+        </Slider>
+        <Slider name="NoseType1" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHNoseType1" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHNoseType1</Data>
+        </Slider>
+        <Slider name="NoseType2" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHNoseType2" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHNoseType2</Data>
+        </Slider>
+        <Slider name="NoseType3" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHNoseType3" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHNoseType3</Data>
+        </Slider>
+        <Slider name="NoseType4" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHNoseType4" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHNoseType4</Data>
+        </Slider>
+        <Slider name="NoseUp" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHNoseUp" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHNoseUp</Data>
+        </Slider>
+        <Slider name="Underbite" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHUnderbite" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHUnderbite</Data>
+        </Slider>
+        <Slider name="VampireMorph" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHVampireMorph" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHVampireMorph</Data>
+        </Slider>
+        <Slider name="JawUp" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHJawUp" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHJawUp</Data>
+        </Slider>
+        <Slider name="Overbite" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHOverbite" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHOverbite</Data>
+        </Slider>
+        <Slider name="LipType1" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLipType1" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLipType1</Data>
+        </Slider>
+        <Slider name="LipType2" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLipType2" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLipType2</Data>
+        </Slider>
+        <Slider name="LipType3" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLipType3" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLipType3</Data>
+        </Slider>
+        <Slider name="LipType4" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLipType4" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLipType4</Data>
+        </Slider>
+        <Slider name="LipType5" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHLipType5" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHLipType5</Data>
+        </Slider>
+        <Slider name="NoseType5" invert="false" default="0">
+            <Data name="FemaleHeadArgonian_KLHNoseType5" target="FemaleHeadArgonian_KLH" local="true">HeadRefArgonian HPH.osd\FemaleHeadArgonian_KLHNoseType5</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

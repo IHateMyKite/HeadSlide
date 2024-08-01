@@ -1,0 +1,8 @@
+<RefTemplates>
+    <Template sourcefile="SliderSets\HeadRef HPH.osp" set="HeadRef HPH">HighPoly Head Female</Template>
+    <Template sourcefile="SliderSets\HeadRefArgonian HPH.osp" set="HeadRefArgonian HPH">HighPoly Head Female Argonian</Template>
+    <Template sourcefile="SliderSets\HeadRefKhajit HPH.osp" set="HeadRefKhajit HPH">HighPoly Head Female Khajit</Template>
+    <Template sourcefile="SliderSets\HeadRefMale HPH.osp" set="HeadRefMale HPH">HighPoly Head Male</Template>
+    <Template sourcefile="SliderSets\HeadRefMaleArgonian HPH.osp" set="HeadRefMaleArgonian HPH">HighPoly Head Male Argonian</Template>
+    <Template sourcefile="SliderSets\HeadRefMaleKhajit HPH.osp" set="HeadRefMaleKhajit HPH">HighPoly Head Male Khajit</Template>
+</RefTemplates>

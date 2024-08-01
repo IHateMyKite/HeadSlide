@@ -5,6 +5,7 @@
 #pragma warning( disable : 4267 )
 #pragma warning( disable : 4245 )
 #pragma warning( disable : 6031 )
+#pragma warning( disable : 26444 )
 
 #include "RE/Skyrim.h"
 #include "SKSE/SKSE.h"

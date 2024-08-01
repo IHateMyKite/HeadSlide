@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="HeadRefKhajit HPH">
+        <DataFolder>HeadRefKhajit HPH</DataFolder>
+        <SourceFile>HeadRefKhajit HPH.nif</SourceFile>
+        <OutputPath>meshes</OutputPath>
+        <OutputFile GenWeights="false">HeadRefKhajitHPH</OutputFile>
+        <Shape target="_KhajiitFemale_KLH">_KhajiitFemale_KLH</Shape>
+        <Slider name="Aah" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHAah" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHAah</Data>
+        </Slider>
+        <Slider name="BigAah" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBigAah" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBigAah</Data>
+        </Slider>
+        <Slider name="BlinkLeft" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBlinkLeft" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBlinkLeft</Data>
+        </Slider>
+        <Slider name="BlinkRight" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBlinkRight" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBlinkRight</Data>
+        </Slider>
+        <Slider name="BMP" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBMP" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBMP</Data>
+        </Slider>
+        <Slider name="BrowDownLeft" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBrowDownLeft" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBrowDownLeft</Data>
+        </Slider>
+        <Slider name="BrowDownRight" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBrowDownRight" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBrowDownRight</Data>
+        </Slider>
+        <Slider name="BrowInLeft" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBrowInLeft" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBrowInLeft</Data>
+        </Slider>
+        <Slider name="BrowInRight" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBrowInRight" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBrowInRight</Data>
+        </Slider>
+        <Slider name="BrowUpLeft" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBrowUpLeft" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBrowUpLeft</Data>
+        </Slider>
+        <Slider name="BrowUpRight" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBrowUpRight" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBrowUpRight</Data>
+        </Slider>
+        <Slider name="ChJSh" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHChJSh" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHChJSh</Data>
+        </Slider>
+        <Slider name="CombatAnger" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHCombatAnger" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHCombatAnger</Data>
+        </Slider>
+        <Slider name="CombatShout" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHCombatShout" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHCombatShout</Data>
+        </Slider>
+        <Slider name="DialogueAnger" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHDialogueAnger" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHDialogueAnger</Data>
+        </Slider>
+        <Slider name="DialogueDisgusted" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHDialogueDisgusted" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHDialogueDisgusted</Data>
+        </Slider>
+        <Slider name="DialogueFear" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHDialogueFear" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHDialogueFear</Data>
+        </Slider>
+        <Slider name="DialogueHappy" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHDialogueHappy" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHDialogueHappy</Data>
+        </Slider>
+        <Slider name="DialoguePuzzled" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHDialoguePuzzled" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHDialoguePuzzled</Data>
+        </Slider>
+        <Slider name="DialogueSad" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHDialogueSad" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHDialogueSad</Data>
+        </Slider>
+        <Slider name="DialogueSurprise" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHDialogueSurprise" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHDialogueSurprise</Data>
+        </Slider>
+        <Slider name="DST" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHDST" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHDST</Data>
+        </Slider>
+        <Slider name="Eee" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEee" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEee</Data>
+        </Slider>
+        <Slider name="Eh" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEh" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEh</Data>
+        </Slider>
+        <Slider name="FV" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHFV" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHFV</Data>
+        </Slider>
+        <Slider name="I" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHI" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHI</Data>
+        </Slider>
+        <Slider name="K" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHK" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHK</Data>
+        </Slider>
+        <Slider name="LookDown" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLookDown" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLookDown</Data>
+        </Slider>
+        <Slider name="LookLeft" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLookLeft" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLookLeft</Data>
+        </Slider>
+        <Slider name="LookRight" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLookRight" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLookRight</Data>
+        </Slider>
+        <Slider name="LookUp" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLookUp" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLookUp</Data>
+        </Slider>
+        <Slider name="MoodAnger" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHMoodAnger" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHMoodAnger</Data>
+        </Slider>
+        <Slider name="MoodDisgusted" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHMoodDisgusted" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHMoodDisgusted</Data>
+        </Slider>
+        <Slider name="MoodFear" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHMoodFear" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHMoodFear</Data>
+        </Slider>
+        <Slider name="MoodHappy" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHMoodHappy" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHMoodHappy</Data>
+        </Slider>
+        <Slider name="MoodPuzzled" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHMoodPuzzled" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHMoodPuzzled</Data>
+        </Slider>
+        <Slider name="MoodSad" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHMoodSad" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHMoodSad</Data>
+        </Slider>
+        <Slider name="MoodSurprise" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHMoodSurprise" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHMoodSurprise</Data>
+        </Slider>
+        <Slider name="N" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHN" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHN</Data>
+        </Slider>
+        <Slider name="Oh" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHOh" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHOh</Data>
+        </Slider>
+        <Slider name="OohQ" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHOohQ" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHOohQ</Data>
+        </Slider>
+        <Slider name="R" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHR" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHR</Data>
+        </Slider>
+        <Slider name="SkinnyMorph" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHSkinnyMorph" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHSkinnyMorph</Data>
+        </Slider>
+        <Slider name="SquintLeft" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHSquintLeft" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHSquintLeft</Data>
+        </Slider>
+        <Slider name="SquintRight" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHSquintRight" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHSquintRight</Data>
+        </Slider>
+        <Slider name="Th" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHTh" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHTh</Data>
+        </Slider>
+        <Slider name="W" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHW" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHW</Data>
+        </Slider>
+        <Slider name="BrowBack" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBrowBack" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBrowBack</Data>
+        </Slider>
+        <Slider name="BrowDown" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBrowDown" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBrowDown</Data>
+        </Slider>
+        <Slider name="BrowForward" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBrowForward" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBrowForward</Data>
+        </Slider>
+        <Slider name="BrowIn" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBrowIn" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBrowIn</Data>
+        </Slider>
+        <Slider name="BrowOut" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBrowOut" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBrowOut</Data>
+        </Slider>
+        <Slider name="BrowUp" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHBrowUp" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHBrowUp</Data>
+        </Slider>
+        <Slider name="CheeksDown" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHCheeksDown" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHCheeksDown</Data>
+        </Slider>
+        <Slider name="CheeksIn" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHCheeksIn" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHCheeksIn</Data>
+        </Slider>
+        <Slider name="CheeksOut" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHCheeksOut" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHCheeksOut</Data>
+        </Slider>
+        <Slider name="ChinMoveDown" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHChinMoveDown" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHChinMoveDown</Data>
+        </Slider>
+        <Slider name="ChinMoveUp" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHChinMoveUp" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHChinMoveUp</Data>
+        </Slider>
+        <Slider name="ChinThin" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHChinThin" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHChinThin</Data>
+        </Slider>
+        <Slider name="ChinWide" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHChinWide" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHChinWide</Data>
+        </Slider>
+        <Slider name="EyesBack" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEyesBack" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEyesBack</Data>
+        </Slider>
+        <Slider name="EyesForward" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEyesForward" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEyesForward</Data>
+        </Slider>
+        <Slider name="EyesMoveDown" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEyesMoveDown" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEyesMoveDown</Data>
+        </Slider>
+        <Slider name="EyesMoveIn" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEyesMoveIn" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEyesMoveIn</Data>
+        </Slider>
+        <Slider name="EyesMoveOut" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEyesMoveOut" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEyesMoveOut</Data>
+        </Slider>
+        <Slider name="EyesMoveUp" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEyesMoveUp" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEyesMoveUp</Data>
+        </Slider>
+        <Slider name="EyesType1" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEyesType1" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEyesType1</Data>
+        </Slider>
+        <Slider name="EyesType2" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEyesType2" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEyesType2</Data>
+        </Slider>
+        <Slider name="EyesType3" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEyesType3" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEyesType3</Data>
+        </Slider>
+        <Slider name="EyesType4" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEyesType4" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEyesType4</Data>
+        </Slider>
+        <Slider name="EyesType5" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHEyesType5" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHEyesType5</Data>
+        </Slider>
+        <Slider name="JawBack" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHJawBack" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHJawBack</Data>
+        </Slider>
+        <Slider name="JawDown" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHJawDown" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHJawDown</Data>
+        </Slider>
+        <Slider name="JawForward" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHJawForward" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHJawForward</Data>
+        </Slider>
+        <Slider name="JawNarrow" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHJawNarrow" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHJawNarrow</Data>
+        </Slider>
+        <Slider name="JawUp" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHJawUp" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHJawUp</Data>
+        </Slider>
+        <Slider name="JawWide" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHJawWide" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHJawWide</Data>
+        </Slider>
+        <Slider name="LipMoveDown" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLipMoveDown" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLipMoveDown</Data>
+        </Slider>
+        <Slider name="LipMoveIn" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLipMoveIn" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLipMoveIn</Data>
+        </Slider>
+        <Slider name="LipMoveOut" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLipMoveOut" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLipMoveOut</Data>
+        </Slider>
+        <Slider name="LipMoveUp" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLipMoveUp" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLipMoveUp</Data>
+        </Slider>
+        <Slider name="LipType1" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLipType1" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLipType1</Data>
+        </Slider>
+        <Slider name="LipType2" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLipType2" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLipType2</Data>
+        </Slider>
+        <Slider name="LipType3" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLipType3" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLipType3</Data>
+        </Slider>
+        <Slider name="LipType4" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLipType4" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLipType4</Data>
+        </Slider>
+        <Slider name="Liptype5" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHLiptype5" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHLiptype5</Data>
+        </Slider>
+        <Slider name="NoseDown" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHNoseDown" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHNoseDown</Data>
+        </Slider>
+        <Slider name="NoseLong" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHNoseLong" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHNoseLong</Data>
+        </Slider>
+        <Slider name="NoseShort" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHNoseShort" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHNoseShort</Data>
+        </Slider>
+        <Slider name="NoseType1" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHNoseType1" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHNoseType1</Data>
+        </Slider>
+        <Slider name="NoseType2" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHNoseType2" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHNoseType2</Data>
+        </Slider>
+        <Slider name="NoseType3" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHNoseType3" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHNoseType3</Data>
+        </Slider>
+        <Slider name="NoseType4" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHNoseType4" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHNoseType4</Data>
+        </Slider>
+        <Slider name="NoseType5" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHNoseType5" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHNoseType5</Data>
+        </Slider>
+        <Slider name="NoseUp" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHNoseUp" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHNoseUp</Data>
+        </Slider>
+        <Slider name="Underbite" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHUnderbite" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHUnderbite</Data>
+        </Slider>
+        <Slider name="VampireMorph" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHVampireMorph" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHVampireMorph</Data>
+        </Slider>
+        <Slider name="Overbite" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHOverbite" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHOverbite</Data>
+        </Slider>
+        <Slider name="CheeksUp" invert="false" default="0">
+            <Data name="_KhajiitFemale_KLHCheeksUp" target="_KhajiitFemale_KLH" local="true">HeadRefKhajit HPH.osd\_KhajiitFemale_KLHCheeksUp</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
