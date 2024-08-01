@@ -20,9 +20,6 @@ namespace HESL
         void Reload();
         void ReadyTempVars(RE::Actor* a_actor);
     public:
-
-
-
         const std::vector<std::string> defaultparts = 
         {
             "Nose",
@@ -98,7 +95,8 @@ namespace HESL
             {"WideNarrow",{"Narrow","Wide"}},
             {"ForwardBack",{"Back","Forward"}},
             {"InOut",{"Out","In"}},
-            {"WideThin",{"Thin","Wide"}}
+            {"WideThin",{"Thin","Wide"}},
+            {"ECE_EarSize",{"ece_EarLarge","ece_EarSmall"}}
         };
 
 
@@ -135,6 +133,18 @@ namespace HESL
             "HeadSlideExpMod",
             "HeadSlideExpExp"
         };
+
+        struct RMSeries
+        {
+            int lasttype = 0;
+            std::string slider;
+        };
+        std::unordered_map<std::string,RMSeries> seriesparse = 
+        {
+            {"ECE_EarShape",{0,"ece_HumEarType"}}
+        };
+
+
 
     public:
         static void UpdateHeadSlide(PAPYRUSFUNCHANDLE, RE::Actor* a_actor);

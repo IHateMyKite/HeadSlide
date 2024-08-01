@@ -729,5 +729,26 @@
         <Slider name="W" invert="false" default="0">
             <Data name="FemaleHeadW" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadW</Data>
         </Slider>
+        <Slider name="ece_HumEarType1" invert="false" default="0">
+            <Data name="FemaleHeadece_HumEarType1" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadece_HumEarType1</Data>
+        </Slider>
+        <Slider name="ece_EarLarge" invert="false" default="0">
+            <Data name="FemaleHeadece_EarLarge" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadece_EarLarge</Data>
+        </Slider>
+        <Slider name="ece_EarSmall" invert="false" default="0">
+            <Data name="FemaleHeadece_EarSmall" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadece_EarSmall</Data>
+        </Slider>
+        <Slider name="ece_HumEarType2" invert="false" default="0">
+            <Data name="FemaleHeadece_HumEarType2" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadece_HumEarType2</Data>
+        </Slider>
+        <Slider name="ece_HumEarType3" invert="false" default="0">
+            <Data name="FemaleHeadece_HumEarType3" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadece_HumEarType3</Data>
+        </Slider>
+        <Slider name="ece_HumEarType4" invert="false" default="0">
+            <Data name="FemaleHeadece_HumEarType4" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadece_HumEarType4</Data>
+        </Slider>
+        <Slider name="ece_HumEarType5" invert="false" default="0">
+            <Data name="FemaleHeadece_HumEarType5" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadece_HumEarType5</Data>
+        </Slider>
     </SliderSet>
 </SliderSetInfo>

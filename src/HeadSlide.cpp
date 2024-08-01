@@ -233,7 +233,9 @@ void HESL::HeadSlide::UpdateRaceSliders(RE::TESNPC* a_actorbase)
     {
         LOG("Race: {}",a_actorbase->race->GetName())
         //_morphinterface->ClearBodyMorphKeys(a_actor,"HeadSlideRace");
-        const std::string loc_race = a_actorbase->race->GetName();
+        std::string loc_race = a_actorbase->race->GetName();
+        (void)loc_race.erase(std::remove_if(loc_race.begin(), loc_race.end(), isspace), loc_race.end());
+
         const std::string loc_raceslider = loc_race + "Race";
         if (_raceselected != loc_race) 
         {
@@ -315,7 +317,7 @@ void HESL::HeadSlide::UpdateRMSliders(RE::TESNPC* a_actorbase)
                     {
                         const float loc_plusvalue   = value >= 0.0f ? value : 0.0f;
                         const float loc_minusvalue  = value <  0.0f ? value*(-1.0f) : 0.0f;
-                        LOG("{} -> {} = {} / {} = {}",morph.get()->c_str(),loc_neg,loc_minusvalue,loc_pos,loc_plusvalue)
+                        LOG("Pair found: {} -> {} = {} / {} = {}",morph.get()->c_str(),loc_neg,loc_minusvalue,loc_pos,loc_plusvalue)
                         UPDATEMORPH(loc_pos.c_str(),"HeadSlide",loc_plusvalue)
                         UPDATEMORPH(loc_neg.c_str(),"HeadSlide",loc_minusvalue)
                         loc_simplevalue = false;
@@ -325,7 +327,31 @@ void HESL::HeadSlide::UpdateRMSliders(RE::TESNPC* a_actorbase)
                 }
             }
 
-            if (loc_simplevalue) UPDATEMORPH(morph.get()->c_str(),"HeadSlide",value)
+            if (loc_simplevalue) 
+            {
+                bool loc_series = false;
+                for (auto&& [kw,type] : seriesparse)
+                {
+                    if (morph.get()->c_str() == kw)
+                    {
+                        LOG("{} is series",morph.get()->c_str())
+                        const int loc_newvalue = static_cast<int>(value + 0.5f);
+                        if (type.lasttype != loc_newvalue)
+                        {
+                            _differ = true;
+                            DEBUG("Series {} type changed from {} to {}",morph.get()->c_str(),type.lasttype,loc_newvalue)
+                        }
+                        std::string loc_type = type.slider + std::to_string(loc_newvalue);
+                        UPDATEMORPH(loc_type.c_str(),"HeadSlide",value)
+                        type.lasttype = loc_newvalue;
+
+                        loc_series = true;
+                        break;
+                    }
+                }
+                
+                if (!loc_series) UPDATEMORPH(morph.get()->c_str(),"HeadSlide",value)
+            }
         }
     }
 }
