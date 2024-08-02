@@ -6,622 +6,622 @@
         <OutputPath>meshes</OutputPath>
         <OutputFile GenWeights="false">HeadRefMaleHPH</OutputFile>
         <Shape target="MaleHeadIMF_KLH">MaleHeadIMF_KLH</Shape>
-        <Slider name="SkinnyMorph" invert="false" default="0">
+        <Slider name="SkinnyMorph" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHSkinnyMorph" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHSkinnyMorph</Data>
         </Slider>
-        <Slider name="Aah" invert="false" default="0">
+        <Slider name="Aah" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHAah" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHAah</Data>
         </Slider>
-        <Slider name="BigAah" invert="false" default="0">
+        <Slider name="BigAah" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBigAah" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBigAah</Data>
         </Slider>
-        <Slider name="BlinkLeft" invert="false" default="0">
+        <Slider name="BlinkLeft" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBlinkLeft" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBlinkLeft</Data>
         </Slider>
-        <Slider name="BlinkRight" invert="false" default="0">
+        <Slider name="BlinkRight" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBlinkRight" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBlinkRight</Data>
         </Slider>
-        <Slider name="BMP" invert="false" default="0">
+        <Slider name="BMP" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBMP" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBMP</Data>
         </Slider>
-        <Slider name="BrowDownLeft" invert="false" default="0">
+        <Slider name="BrowDownLeft" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBrowDownLeft" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBrowDownLeft</Data>
         </Slider>
-        <Slider name="BrowDownRight" invert="false" default="0">
+        <Slider name="BrowDownRight" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBrowDownRight" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBrowDownRight</Data>
         </Slider>
-        <Slider name="BrowInLeft" invert="false" default="0">
+        <Slider name="BrowInLeft" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBrowInLeft" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBrowInLeft</Data>
         </Slider>
-        <Slider name="BrowInRight" invert="false" default="0">
+        <Slider name="BrowInRight" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBrowInRight" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBrowInRight</Data>
         </Slider>
-        <Slider name="BrowUpLeft" invert="false" default="0">
+        <Slider name="BrowUpLeft" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBrowUpLeft" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBrowUpLeft</Data>
         </Slider>
-        <Slider name="BrowUpRight" invert="false" default="0">
+        <Slider name="BrowUpRight" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBrowUpRight" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBrowUpRight</Data>
         </Slider>
-        <Slider name="ChJSh" invert="false" default="0">
+        <Slider name="ChJSh" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHChJSh" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHChJSh</Data>
         </Slider>
-        <Slider name="CombatAnger" invert="false" default="0">
+        <Slider name="CombatAnger" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCombatAnger" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCombatAnger</Data>
         </Slider>
-        <Slider name="CombatShout" invert="false" default="0">
+        <Slider name="CombatShout" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCombatShout" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCombatShout</Data>
         </Slider>
-        <Slider name="DialogueAnger" invert="false" default="0">
+        <Slider name="DialogueAnger" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHDialogueAnger" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHDialogueAnger</Data>
         </Slider>
-        <Slider name="DialogueDisgusted" invert="false" default="0">
+        <Slider name="DialogueDisgusted" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHDialogueDisgusted" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHDialogueDisgusted</Data>
         </Slider>
-        <Slider name="DialogueFear" invert="false" default="0">
+        <Slider name="DialogueFear" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHDialogueFear" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHDialogueFear</Data>
         </Slider>
-        <Slider name="DialogueHappy" invert="false" default="0">
+        <Slider name="DialogueHappy" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHDialogueHappy" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHDialogueHappy</Data>
         </Slider>
-        <Slider name="DialoguePuzzled" invert="false" default="0">
+        <Slider name="DialoguePuzzled" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHDialoguePuzzled" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHDialoguePuzzled</Data>
         </Slider>
-        <Slider name="DialogueSad" invert="false" default="0">
+        <Slider name="DialogueSad" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHDialogueSad" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHDialogueSad</Data>
         </Slider>
-        <Slider name="DialogueSurprise" invert="false" default="0">
+        <Slider name="DialogueSurprise" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHDialogueSurprise" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHDialogueSurprise</Data>
         </Slider>
-        <Slider name="DST" invert="false" default="0">
+        <Slider name="DST" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHDST" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHDST</Data>
         </Slider>
-        <Slider name="Eee" invert="false" default="0">
+        <Slider name="Eee" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEee" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEee</Data>
         </Slider>
-        <Slider name="Eh" invert="false" default="0">
+        <Slider name="Eh" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEh" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEh</Data>
         </Slider>
-        <Slider name="FV" invert="false" default="0">
+        <Slider name="FV" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHFV" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHFV</Data>
         </Slider>
-        <Slider name="I" invert="false" default="0">
+        <Slider name="I" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHI" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHI</Data>
         </Slider>
-        <Slider name="K" invert="false" default="0">
+        <Slider name="K" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHK" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHK</Data>
         </Slider>
-        <Slider name="LookDown" invert="false" default="0">
+        <Slider name="LookDown" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLookDown" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLookDown</Data>
         </Slider>
-        <Slider name="MoodAnger" invert="false" default="0">
+        <Slider name="MoodAnger" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHMoodAnger" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHMoodAnger</Data>
         </Slider>
-        <Slider name="MoodDisgusted" invert="false" default="0">
+        <Slider name="MoodDisgusted" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHMoodDisgusted" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHMoodDisgusted</Data>
         </Slider>
-        <Slider name="MoodFear" invert="false" default="0">
+        <Slider name="MoodFear" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHMoodFear" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHMoodFear</Data>
         </Slider>
-        <Slider name="MoodHappy" invert="false" default="0">
+        <Slider name="MoodHappy" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHMoodHappy" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHMoodHappy</Data>
         </Slider>
-        <Slider name="MoodPuzzled" invert="false" default="0">
+        <Slider name="MoodPuzzled" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHMoodPuzzled" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHMoodPuzzled</Data>
         </Slider>
-        <Slider name="MoodSad" invert="false" default="0">
+        <Slider name="MoodSad" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHMoodSad" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHMoodSad</Data>
         </Slider>
-        <Slider name="MoodSurprise" invert="false" default="0">
+        <Slider name="MoodSurprise" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHMoodSurprise" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHMoodSurprise</Data>
         </Slider>
-        <Slider name="N" invert="false" default="0">
+        <Slider name="N" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHN" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHN</Data>
         </Slider>
-        <Slider name="Oh" invert="false" default="0">
+        <Slider name="Oh" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHOh" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHOh</Data>
         </Slider>
-        <Slider name="OohQ" invert="false" default="0">
+        <Slider name="OohQ" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHOohQ" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHOohQ</Data>
         </Slider>
-        <Slider name="R" invert="false" default="0">
+        <Slider name="R" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHR" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHR</Data>
         </Slider>
-        <Slider name="SquintLeft" invert="false" default="0">
+        <Slider name="SquintLeft" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHSquintLeft" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHSquintLeft</Data>
         </Slider>
-        <Slider name="SquintRight" invert="false" default="0">
+        <Slider name="SquintRight" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHSquintRight" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHSquintRight</Data>
         </Slider>
-        <Slider name="Th" invert="false" default="0">
+        <Slider name="Th" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHTh" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHTh</Data>
         </Slider>
-        <Slider name="W" invert="false" default="0">
+        <Slider name="W" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHW" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHW</Data>
         </Slider>
-        <Slider name="Underbite" invert="false" default="0">
+        <Slider name="Underbite" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHUnderbite" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHUnderbite</Data>
         </Slider>
-        <Slider name="Overbite" invert="false" default="0">
+        <Slider name="Overbite" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHOverbite" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHOverbite</Data>
         </Slider>
-        <Slider name="NoseUp" invert="false" default="0">
+        <Slider name="NoseUp" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseUp" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseUp</Data>
         </Slider>
-        <Slider name="NoseDown" invert="false" default="0">
+        <Slider name="NoseDown" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseDown" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseDown</Data>
         </Slider>
-        <Slider name="NoseLong" invert="false" default="0">
+        <Slider name="NoseLong" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseLong" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseLong</Data>
         </Slider>
-        <Slider name="NoseShort" invert="false" default="0">
+        <Slider name="NoseShort" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseShort" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseShort</Data>
         </Slider>
-        <Slider name="LipMoveUp" invert="false" default="0">
+        <Slider name="LipMoveUp" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipMoveUp" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipMoveUp</Data>
         </Slider>
-        <Slider name="LipMoveDown" invert="false" default="0">
+        <Slider name="LipMoveDown" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipMoveDown" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipMoveDown</Data>
         </Slider>
-        <Slider name="LipMoveIn" invert="false" default="0">
+        <Slider name="LipMoveIn" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipMoveIn" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipMoveIn</Data>
         </Slider>
-        <Slider name="LipMoveOut" invert="false" default="0">
+        <Slider name="LipMoveOut" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipMoveOut" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipMoveOut</Data>
         </Slider>
-        <Slider name="JawUp" invert="false" default="0">
+        <Slider name="JawUp" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHJawUp" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHJawUp</Data>
         </Slider>
-        <Slider name="JawDown" invert="false" default="0">
+        <Slider name="JawDown" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHJawDown" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHJawDown</Data>
         </Slider>
-        <Slider name="JawWide" invert="false" default="0">
+        <Slider name="JawWide" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHJawWide" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHJawWide</Data>
         </Slider>
-        <Slider name="JawNarrow" invert="false" default="0">
+        <Slider name="JawNarrow" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHJawNarrow" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHJawNarrow</Data>
         </Slider>
-        <Slider name="JawForward" invert="false" default="0">
+        <Slider name="JawForward" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHJawForward" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHJawForward</Data>
         </Slider>
-        <Slider name="JawBack" invert="false" default="0">
+        <Slider name="JawBack" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHJawBack" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHJawBack</Data>
         </Slider>
-        <Slider name="EyesMoveUp" invert="false" default="0">
+        <Slider name="EyesMoveUp" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesMoveUp" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesMoveUp</Data>
         </Slider>
-        <Slider name="EyesMoveDown" invert="false" default="0">
+        <Slider name="EyesMoveDown" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesMoveDown" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesMoveDown</Data>
         </Slider>
-        <Slider name="EyesMoveIn" invert="false" default="0">
+        <Slider name="EyesMoveIn" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesMoveIn" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesMoveIn</Data>
         </Slider>
-        <Slider name="EyesMoveOut" invert="false" default="0">
+        <Slider name="EyesMoveOut" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesMoveOut" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesMoveOut</Data>
         </Slider>
-        <Slider name="EyesForward" invert="false" default="0">
+        <Slider name="EyesForward" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesForward" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesForward</Data>
         </Slider>
-        <Slider name="EyesBack" invert="false" default="0">
+        <Slider name="EyesBack" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesBack" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesBack</Data>
         </Slider>
-        <Slider name="ChinMoveUp" invert="false" default="0">
+        <Slider name="ChinMoveUp" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHChinMoveUp" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHChinMoveUp</Data>
         </Slider>
-        <Slider name="ChinMoveDown" invert="false" default="0">
+        <Slider name="ChinMoveDown" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHChinMoveDown" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHChinMoveDown</Data>
         </Slider>
-        <Slider name="ChinWide" invert="false" default="0">
+        <Slider name="ChinWide" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHChinWide" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHChinWide</Data>
         </Slider>
-        <Slider name="ChinThin" invert="false" default="0">
+        <Slider name="ChinThin" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHChinThin" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHChinThin</Data>
         </Slider>
-        <Slider name="CheeksUp" invert="false" default="0">
+        <Slider name="CheeksUp" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCheeksUp" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCheeksUp</Data>
         </Slider>
-        <Slider name="CheeksDown" invert="false" default="0">
+        <Slider name="CheeksDown" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCheeksDown" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCheeksDown</Data>
         </Slider>
-        <Slider name="CheeksIn" invert="false" default="0">
+        <Slider name="CheeksIn" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCheeksIn" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCheeksIn</Data>
         </Slider>
-        <Slider name="CheeksOut" invert="false" default="0">
+        <Slider name="CheeksOut" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCheeksOut" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCheeksOut</Data>
         </Slider>
-        <Slider name="BrowUp" invert="false" default="0">
+        <Slider name="BrowUp" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBrowUp" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBrowUp</Data>
         </Slider>
-        <Slider name="BrowDown" invert="false" default="0">
+        <Slider name="BrowDown" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBrowDown" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBrowDown</Data>
         </Slider>
-        <Slider name="BrowIn" invert="false" default="0">
+        <Slider name="BrowIn" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBrowIn" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBrowIn</Data>
         </Slider>
-        <Slider name="BrowOut" invert="false" default="0">
+        <Slider name="BrowOut" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBrowOut" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBrowOut</Data>
         </Slider>
-        <Slider name="BrowForward" invert="false" default="0">
+        <Slider name="BrowForward" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBrowForward" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBrowForward</Data>
         </Slider>
-        <Slider name="BrowBack" invert="false" default="0">
+        <Slider name="BrowBack" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBrowBack" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBrowBack</Data>
         </Slider>
-        <Slider name="NoseType1" invert="false" default="0">
+        <Slider name="NoseType1" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType1" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType1</Data>
         </Slider>
-        <Slider name="NoseType2" invert="false" default="0">
+        <Slider name="NoseType2" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType2" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType2</Data>
         </Slider>
-        <Slider name="NoseType3" invert="false" default="0">
+        <Slider name="NoseType3" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType3" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType3</Data>
         </Slider>
-        <Slider name="NoseType4" invert="false" default="0">
+        <Slider name="NoseType4" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType4" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType4</Data>
         </Slider>
-        <Slider name="NoseType5" invert="false" default="0">
+        <Slider name="NoseType5" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType5" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType5</Data>
         </Slider>
-        <Slider name="NoseType6" invert="false" default="0">
+        <Slider name="NoseType6" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType6" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType6</Data>
         </Slider>
-        <Slider name="NoseType7" invert="false" default="0">
+        <Slider name="NoseType7" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType7" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType7</Data>
         </Slider>
-        <Slider name="NoseType8" invert="false" default="0">
+        <Slider name="NoseType8" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType8" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType8</Data>
         </Slider>
-        <Slider name="NoseType9" invert="false" default="0">
+        <Slider name="NoseType9" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType9" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType9</Data>
         </Slider>
-        <Slider name="NoseType10" invert="false" default="0">
+        <Slider name="NoseType10" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType10" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType10</Data>
         </Slider>
-        <Slider name="NoseType11" invert="false" default="0">
+        <Slider name="NoseType11" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType11" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType11</Data>
         </Slider>
-        <Slider name="NoseType12" invert="false" default="0">
+        <Slider name="NoseType12" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType12" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType12</Data>
         </Slider>
-        <Slider name="NoseType13" invert="false" default="0">
+        <Slider name="NoseType13" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType13" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType13</Data>
         </Slider>
-        <Slider name="NoseType14" invert="false" default="0">
+        <Slider name="NoseType14" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType14" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType14</Data>
         </Slider>
-        <Slider name="NoseType15" invert="false" default="0">
+        <Slider name="NoseType15" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType15" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType15</Data>
         </Slider>
-        <Slider name="NoseType16" invert="false" default="0">
+        <Slider name="NoseType16" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType16" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType16</Data>
         </Slider>
-        <Slider name="NoseType17" invert="false" default="0">
+        <Slider name="NoseType17" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType17" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType17</Data>
         </Slider>
-        <Slider name="NoseType18" invert="false" default="0">
+        <Slider name="NoseType18" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType18" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType18</Data>
         </Slider>
-        <Slider name="NoseType19" invert="false" default="0">
+        <Slider name="NoseType19" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType19" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType19</Data>
         </Slider>
-        <Slider name="NoseType20" invert="false" default="0">
+        <Slider name="NoseType20" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType20" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType20</Data>
         </Slider>
-        <Slider name="NoseType21" invert="false" default="0">
+        <Slider name="NoseType21" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType21" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType21</Data>
         </Slider>
-        <Slider name="NoseType22" invert="false" default="0">
+        <Slider name="NoseType22" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType22" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType22</Data>
         </Slider>
-        <Slider name="NoseType23" invert="false" default="0">
+        <Slider name="NoseType23" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType23" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType23</Data>
         </Slider>
-        <Slider name="NoseType24" invert="false" default="0">
+        <Slider name="NoseType24" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType24" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType24</Data>
         </Slider>
-        <Slider name="NoseType25" invert="false" default="0">
+        <Slider name="NoseType25" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType25" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType25</Data>
         </Slider>
-        <Slider name="NoseType26" invert="false" default="0">
+        <Slider name="NoseType26" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType26" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType26</Data>
         </Slider>
-        <Slider name="NoseType27" invert="false" default="0">
+        <Slider name="NoseType27" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType27" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType27</Data>
         </Slider>
-        <Slider name="NoseType28" invert="false" default="0">
+        <Slider name="NoseType28" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType28" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType28</Data>
         </Slider>
-        <Slider name="NoseType29" invert="false" default="0">
+        <Slider name="NoseType29" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType29" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType29</Data>
         </Slider>
-        <Slider name="NoseType30" invert="false" default="0">
+        <Slider name="NoseType30" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNoseType30" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNoseType30</Data>
         </Slider>
-        <Slider name="LipType1" invert="false" default="0">
+        <Slider name="LipType1" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType1" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType1</Data>
         </Slider>
-        <Slider name="LipType2" invert="false" default="0">
+        <Slider name="LipType2" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType2" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType2</Data>
         </Slider>
-        <Slider name="LipType3" invert="false" default="0">
+        <Slider name="LipType3" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType3" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType3</Data>
         </Slider>
-        <Slider name="LipType4" invert="false" default="0">
+        <Slider name="LipType4" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType4" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType4</Data>
         </Slider>
-        <Slider name="LipType5" invert="false" default="0">
+        <Slider name="LipType5" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType5" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType5</Data>
         </Slider>
-        <Slider name="LipType6" invert="false" default="0">
+        <Slider name="LipType6" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType6" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType6</Data>
         </Slider>
-        <Slider name="LipType7" invert="false" default="0">
+        <Slider name="LipType7" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType7" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType7</Data>
         </Slider>
-        <Slider name="LipType8" invert="false" default="0">
+        <Slider name="LipType8" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType8" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType8</Data>
         </Slider>
-        <Slider name="LipType9" invert="false" default="0">
+        <Slider name="LipType9" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType9" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType9</Data>
         </Slider>
-        <Slider name="LipType10" invert="false" default="0">
+        <Slider name="LipType10" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType10" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType10</Data>
         </Slider>
-        <Slider name="LipType11" invert="false" default="0">
+        <Slider name="LipType11" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType11" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType11</Data>
         </Slider>
-        <Slider name="LipType12" invert="false" default="0">
+        <Slider name="LipType12" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType12" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType12</Data>
         </Slider>
-        <Slider name="LipType13" invert="false" default="0">
+        <Slider name="LipType13" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType13" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType13</Data>
         </Slider>
-        <Slider name="LipType14" invert="false" default="0">
+        <Slider name="LipType14" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType14" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType14</Data>
         </Slider>
-        <Slider name="LipType15" invert="false" default="0">
+        <Slider name="LipType15" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType15" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType15</Data>
         </Slider>
-        <Slider name="LipType16" invert="false" default="0">
+        <Slider name="LipType16" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType16" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType16</Data>
         </Slider>
-        <Slider name="LipType17" invert="false" default="0">
+        <Slider name="LipType17" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType17" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType17</Data>
         </Slider>
-        <Slider name="LipType18" invert="false" default="0">
+        <Slider name="LipType18" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType18" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType18</Data>
         </Slider>
-        <Slider name="LipType19" invert="false" default="0">
+        <Slider name="LipType19" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType19" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType19</Data>
         </Slider>
-        <Slider name="LipType20" invert="false" default="0">
+        <Slider name="LipType20" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType20" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType20</Data>
         </Slider>
-        <Slider name="LipType22" invert="false" default="0">
+        <Slider name="LipType22" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType22" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType22</Data>
         </Slider>
-        <Slider name="LipType23" invert="false" default="0">
+        <Slider name="LipType23" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType23" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType23</Data>
         </Slider>
-        <Slider name="LipType24" invert="false" default="0">
+        <Slider name="LipType24" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType24" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType24</Data>
         </Slider>
-        <Slider name="LipType25" invert="false" default="0">
+        <Slider name="LipType25" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType25" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType25</Data>
         </Slider>
-        <Slider name="LipType26" invert="false" default="0">
+        <Slider name="LipType26" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType26" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType26</Data>
         </Slider>
-        <Slider name="LipType27" invert="false" default="0">
+        <Slider name="LipType27" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType27" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType27</Data>
         </Slider>
-        <Slider name="LipType28" invert="false" default="0">
+        <Slider name="LipType28" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType28" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType28</Data>
         </Slider>
-        <Slider name="LipType29" invert="false" default="0">
+        <Slider name="LipType29" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType29" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType29</Data>
         </Slider>
-        <Slider name="LipType30" invert="false" default="0">
+        <Slider name="LipType30" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHLipType30" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHLipType30</Data>
         </Slider>
-        <Slider name="EyesType1" invert="false" default="0">
+        <Slider name="EyesType1" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType1" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType1</Data>
         </Slider>
-        <Slider name="EyesType2" invert="false" default="0">
+        <Slider name="EyesType2" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType2" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType2</Data>
         </Slider>
-        <Slider name="EyesType3" invert="false" default="0">
+        <Slider name="EyesType3" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType3" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType3</Data>
         </Slider>
-        <Slider name="EyesType4" invert="false" default="0">
+        <Slider name="EyesType4" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType4" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType4</Data>
         </Slider>
-        <Slider name="EyesType5" invert="false" default="0">
+        <Slider name="EyesType5" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType5" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType5</Data>
         </Slider>
-        <Slider name="EyesType6" invert="false" default="0">
+        <Slider name="EyesType6" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType6" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType6</Data>
         </Slider>
-        <Slider name="EyesType7" invert="false" default="0">
+        <Slider name="EyesType7" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType7" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType7</Data>
         </Slider>
-        <Slider name="EyesType8" invert="false" default="0">
+        <Slider name="EyesType8" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType8" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType8</Data>
         </Slider>
-        <Slider name="EyesType9" invert="false" default="0">
+        <Slider name="EyesType9" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType9" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType9</Data>
         </Slider>
-        <Slider name="EyesType10" invert="false" default="0">
+        <Slider name="EyesType10" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType10" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType10</Data>
         </Slider>
-        <Slider name="EyesType11" invert="false" default="0">
+        <Slider name="EyesType11" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType11" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType11</Data>
         </Slider>
-        <Slider name="EyesType12" invert="false" default="0">
+        <Slider name="EyesType12" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType12" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType12</Data>
         </Slider>
-        <Slider name="EyesType13" invert="false" default="0">
+        <Slider name="EyesType13" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType13" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType13</Data>
         </Slider>
-        <Slider name="EyesType14" invert="false" default="0">
+        <Slider name="EyesType14" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType14" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType14</Data>
         </Slider>
-        <Slider name="EyesType15" invert="false" default="0">
+        <Slider name="EyesType15" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType15" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType15</Data>
         </Slider>
-        <Slider name="EyesType16" invert="false" default="0">
+        <Slider name="EyesType16" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType16" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType16</Data>
         </Slider>
-        <Slider name="EyesType17" invert="false" default="0">
+        <Slider name="EyesType17" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType17" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType17</Data>
         </Slider>
-        <Slider name="EyesType18" invert="false" default="0">
+        <Slider name="EyesType18" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType18" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType18</Data>
         </Slider>
-        <Slider name="EyesType19" invert="false" default="0">
+        <Slider name="EyesType19" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType19" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType19</Data>
         </Slider>
-        <Slider name="EyesType20" invert="false" default="0">
+        <Slider name="EyesType20" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType20" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType20</Data>
         </Slider>
-        <Slider name="EyesType21" invert="false" default="0">
+        <Slider name="EyesType21" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType21" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType21</Data>
         </Slider>
-        <Slider name="EyesType22" invert="false" default="0">
+        <Slider name="EyesType22" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType22" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType22</Data>
         </Slider>
-        <Slider name="EyesType23" invert="false" default="0">
+        <Slider name="EyesType23" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType23" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType23</Data>
         </Slider>
-        <Slider name="EyesType24" invert="false" default="0">
+        <Slider name="EyesType24" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType24" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType24</Data>
         </Slider>
-        <Slider name="EyesType25" invert="false" default="0">
+        <Slider name="EyesType25" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType25" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType25</Data>
         </Slider>
-        <Slider name="EyesType26" invert="false" default="0">
+        <Slider name="EyesType26" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType26" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType26</Data>
         </Slider>
-        <Slider name="EyesType27" invert="false" default="0">
+        <Slider name="EyesType27" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType27" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType27</Data>
         </Slider>
-        <Slider name="EyesType28" invert="false" default="0">
+        <Slider name="EyesType28" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType28" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType28</Data>
         </Slider>
-        <Slider name="EyesType29" invert="false" default="0">
+        <Slider name="EyesType29" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType29" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType29</Data>
         </Slider>
-        <Slider name="EyesType30" invert="false" default="0">
+        <Slider name="EyesType30" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType30" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType30</Data>
         </Slider>
-        <Slider name="EyesType31" invert="false" default="0">
+        <Slider name="EyesType31" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType31" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType31</Data>
         </Slider>
-        <Slider name="EyesType32" invert="false" default="0">
+        <Slider name="EyesType32" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType32" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType32</Data>
         </Slider>
-        <Slider name="EyesType33" invert="false" default="0">
+        <Slider name="EyesType33" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType33" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType33</Data>
         </Slider>
-        <Slider name="EyesType34" invert="false" default="0">
+        <Slider name="EyesType34" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType34" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType34</Data>
         </Slider>
-        <Slider name="EyesType35" invert="false" default="0">
+        <Slider name="EyesType35" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType35" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType35</Data>
         </Slider>
-        <Slider name="EyesType36" invert="false" default="0">
+        <Slider name="EyesType36" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType36" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType36</Data>
         </Slider>
-        <Slider name="EyesType37" invert="false" default="0">
+        <Slider name="EyesType37" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHEyesType37" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHEyesType37</Data>
         </Slider>
-        <Slider name="BretonRace" invert="false" default="0">
+        <Slider name="BretonRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHBretonRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHBretonRace</Data>
         </Slider>
-        <Slider name="ImperialRace" invert="false" default="0">
+        <Slider name="ImperialRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHImperialRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHImperialRace</Data>
         </Slider>
-        <Slider name="HighElfRace" invert="false" default="0">
+        <Slider name="HighElfRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHHighElfRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHHighElfRace</Data>
         </Slider>
-        <Slider name="RedguardRace" invert="false" default="0">
+        <Slider name="RedguardRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHRedguardRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHRedguardRace</Data>
         </Slider>
-        <Slider name="ElderRace" invert="false" default="0">
+        <Slider name="ElderRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHElderRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHElderRace</Data>
         </Slider>
-        <Slider name="NordRace" invert="false" default="0">
+        <Slider name="NordRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHNordRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHNordRace</Data>
         </Slider>
-        <Slider name="WoodElfRace" invert="false" default="0">
+        <Slider name="WoodElfRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHWoodElfRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHWoodElfRace</Data>
         </Slider>
-        <Slider name="DarkElfRace" invert="false" default="0">
+        <Slider name="DarkElfRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHDarkElfRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHDarkElfRace</Data>
         </Slider>
-        <Slider name="OrcRace" invert="false" default="0">
+        <Slider name="OrcRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHOrcRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHOrcRace</Data>
         </Slider>
-        <Slider name="DremoraRace" invert="false" default="0">
+        <Slider name="DremoraRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHDremoraRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHDremoraRace</Data>
         </Slider>
-        <Slider name="CME_BretonRace" invert="false" default="0">
+        <Slider name="CME_BretonRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_BretonRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_BretonRace</Data>
         </Slider>
-        <Slider name="CME_BretonRace_inv" invert="false" default="0">
+        <Slider name="CME_BretonRace_inv" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_BretonRace_inv" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_BretonRace_inv</Data>
         </Slider>
-        <Slider name="CME_DarkElfRace" invert="false" default="0">
+        <Slider name="CME_DarkElfRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_DarkElfRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_DarkElfRace</Data>
         </Slider>
-        <Slider name="CME_DarkElfRace_inv" invert="false" default="0">
+        <Slider name="CME_DarkElfRace_inv" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_DarkElfRace_inv" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_DarkElfRace_inv</Data>
         </Slider>
-        <Slider name="CME_DremoraRace" invert="false" default="0">
+        <Slider name="CME_DremoraRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_DremoraRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_DremoraRace</Data>
         </Slider>
-        <Slider name="CME_DremoraRace_inv" invert="false" default="0">
+        <Slider name="CME_DremoraRace_inv" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_DremoraRace_inv" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_DremoraRace_inv</Data>
         </Slider>
-        <Slider name="CME_ElderRace" invert="false" default="0">
+        <Slider name="CME_ElderRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_ElderRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_ElderRace</Data>
         </Slider>
-        <Slider name="CME_ElderRace_inv" invert="false" default="0">
+        <Slider name="CME_ElderRace_inv" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_ElderRace_inv" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_ElderRace_inv</Data>
         </Slider>
-        <Slider name="CME_HighElfRace" invert="false" default="0">
+        <Slider name="CME_HighElfRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_HighElfRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_HighElfRace</Data>
         </Slider>
-        <Slider name="CME_HighElfRace_inv" invert="false" default="0">
+        <Slider name="CME_HighElfRace_inv" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_HighElfRace_inv" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_HighElfRace_inv</Data>
         </Slider>
-        <Slider name="CME_ImperialRace" invert="false" default="0">
+        <Slider name="CME_ImperialRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_ImperialRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_ImperialRace</Data>
         </Slider>
-        <Slider name="CME_ImperialRace_inv" invert="false" default="0">
+        <Slider name="CME_ImperialRace_inv" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_ImperialRace_inv" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_ImperialRace_inv</Data>
         </Slider>
-        <Slider name="CME_NordRace" invert="false" default="0">
+        <Slider name="CME_NordRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_NordRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_NordRace</Data>
         </Slider>
-        <Slider name="CME_NordRace_inv" invert="false" default="0">
+        <Slider name="CME_NordRace_inv" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_NordRace_inv" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_NordRace_inv</Data>
         </Slider>
-        <Slider name="CME_OrcRace" invert="false" default="0">
+        <Slider name="CME_OrcRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_OrcRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_OrcRace</Data>
         </Slider>
-        <Slider name="CME_OrcRace_inv" invert="false" default="0">
+        <Slider name="CME_OrcRace_inv" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_OrcRace_inv" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_OrcRace_inv</Data>
         </Slider>
-        <Slider name="CME_RedguardRace" invert="false" default="0">
+        <Slider name="CME_RedguardRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_RedguardRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_RedguardRace</Data>
         </Slider>
-        <Slider name="CME_RedguardRace_inv" invert="false" default="0">
+        <Slider name="CME_RedguardRace_inv" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_RedguardRace_inv" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_RedguardRace_inv</Data>
         </Slider>
-        <Slider name="CME_WoodElfRace" invert="false" default="0">
+        <Slider name="CME_WoodElfRace" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_WoodElfRace" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_WoodElfRace</Data>
         </Slider>
-        <Slider name="CME_WoodElfRace_inv" invert="false" default="0">
+        <Slider name="CME_WoodElfRace_inv" invert="false" default="0" hidden="true">
             <Data name="MaleHeadIMF_KLHCME_WoodElfRace_inv" target="MaleHeadIMF_KLH" local="true">HeadRefMale HPH.osd\MaleHeadIMF_KLHCME_WoodElfRace_inv</Data>
         </Slider>
     </SliderSet>

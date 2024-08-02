@@ -96,7 +96,19 @@ namespace HESL
             {"ForwardBack",{"Back","Forward"}},
             {"InOut",{"Out","In"}},
             {"WideThin",{"Thin","Wide"}},
-            {"ECE_EarSize",{"ece_EarLarge","ece_EarSmall"}}
+            {"ECE_EarSize",{"ece_EarSmall","ece_EarLarge"}},
+            {"CME_Breton",{"CME_BretonRace_inv","CME_BretonRace"}},
+            {"CME_DarkElf",{"CME_DarkElfRace_inv","CME_DarkElfRace"}},
+            {"CME_Dremora",{"CME_DremoraRace_inv","CME_DremoraRace"}},
+            {"CME_Elder",{"CME_ElderRace_inv","CME_ElderRace"}},
+            {"CME_HighElf",{"CME_HighElfRace_inv","CME_HighElfRace"}},
+            {"CME_Imperial",{"CME_ImperialRace_inv","CME_ImperialRace"}},
+            {"CME_Nord",{"CME_NordRace_inv","CME_NordRace"}},
+            {"CME_Orc",{"CME_OrcRace_inv","CME_OrcRace"}},
+            {"CME_Redguard",{"CME_RedguardRace_inv","CME_RedguardRace"}},
+            {"CME_WoodElf",{"CME_WoodElfRace_inv","CME_WoodElfRace"}},
+            
+            
         };
 
 
@@ -139,12 +151,11 @@ namespace HESL
             int lasttype = 0;
             std::string slider;
         };
+
         std::unordered_map<std::string,RMSeries> seriesparse = 
         {
             {"ECE_EarShape",{0,"ece_HumEarType"}}
         };
-
-
 
     public:
         static void UpdateHeadSlide(PAPYRUSFUNCHANDLE, RE::Actor* a_actor);
@@ -183,5 +194,7 @@ namespace HESL
         std::pair<bool,std::string> _expphon = {true,"General.bExpPhonems"};
         std::pair<bool,std::string> _expmod = {true,"General.bExpMods"};
         std::pair<bool,std::string> _expexp = {true,"General.bExpExp"};
+
+        std::pair<std::vector<std::string>,std::string> _rmblacklist = {{},"General.asRMBlacklist"};
     };
 }

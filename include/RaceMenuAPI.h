@@ -17,8 +17,6 @@
 #define MORPH_CACHE_DIR "cache\\"
 #define MORPH_CACHE_PATH "actors\\character\\FaceGenMorphs\\morphs\\cache\\"
 
-
-
 namespace RM
 {
     class BSFaceGenNiNode;

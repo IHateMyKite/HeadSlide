@@ -1,4 +1,5 @@
 #include "HeadSlide.h"
+#include <boost/algorithm/string.hpp>
 
 SINGLETONBODY(HESL::HeadSlide)
 
@@ -165,7 +166,7 @@ void HESL::HeadSlide::SetActorsMorphs(RE::Actor* a_actor)
 {
     if (_differ /*(_oldvalues.size() != _newvalues.size()) || !std::equal(_oldvalues.begin(), _oldvalues.end(),_newvalues.begin())*/)
     {
-        DEBUG("Difference in morphs found. Setting new morhps...")
+        LOG("Difference in morphs found. Setting new morhps...")
 
         _morphinterface->ClearBodyMorphKeys(a_actor,MORPHKEY);
 
@@ -181,7 +182,7 @@ void HESL::HeadSlide::SetActorsMorphs(RE::Actor* a_actor)
         _morphinterface->UpdateModelWeight(a_actor);
 
         _differ = false;
-        DEBUG("***********************************************************************************")
+        LOG("***********************************************************************************")
     }
     //else _newvalues.clear();
 }
@@ -197,6 +198,11 @@ void HESL::HeadSlide::Reload()
         val.first = Config::GetSingleton()->GetVariable<type>(val.second,val.first); \
         DEBUG("Config variable loaded: {} -> {}",val.second,val.first)               \
     }
+    #define UPDATECONFIGARR(val,type)                                                \
+    {                                                                                \
+        val.first = Config::GetSingleton()->GetArray<type>(val.second);              \
+        DEBUG("Config variable loaded: {} -> {}",val.second,boost::join(val.first,",")) \
+    }
 
     UPDATECONFIG(_framethd,int)
     UPDATECONFIG(_chargen ,bool)
@@ -207,6 +213,8 @@ void HESL::HeadSlide::Reload()
     UPDATECONFIG(_expphon ,bool)
     UPDATECONFIG(_expmod  ,bool)
     UPDATECONFIG(_expexp  ,bool)
+
+    UPDATECONFIGARR(_rmblacklist,std::string)
 
     #undef UPDATECONFIG
 
@@ -335,14 +343,14 @@ void HESL::HeadSlide::UpdateRMSliders(RE::TESNPC* a_actorbase)
                     if (morph.get()->c_str() == kw)
                     {
                         LOG("{} is series",morph.get()->c_str())
-                        const int loc_newvalue = static_cast<int>(value + 0.5f);
+                        const int loc_newvalue = static_cast<int>(value + 0.5f); // round the value
                         if (type.lasttype != loc_newvalue)
                         {
                             _differ = true;
                             DEBUG("Series {} type changed from {} to {}",morph.get()->c_str(),type.lasttype,loc_newvalue)
                         }
                         std::string loc_type = type.slider + std::to_string(loc_newvalue);
-                        UPDATEMORPH(loc_type.c_str(),"HeadSlide",value)
+                        UPDATEMORPH(loc_type.c_str(),"HeadSlide",1.0f)
                         type.lasttype = loc_newvalue;
 
                         loc_series = true;

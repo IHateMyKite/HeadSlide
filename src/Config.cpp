@@ -46,6 +46,7 @@ std::vector<std::string> Config::GetArrayRaw(std::string a_name, bool a_tolower,
     {
         const auto loc_first = it.find_first_not_of(' ');
         const auto loc_last  = it.find_last_not_of(' ');
+        if (loc_first == loc_last) continue;
         it = it.substr(loc_first,loc_last - loc_first + 1);
         if (a_tolower) std::transform(it.begin(), it.end(), it.begin(), ::tolower);
     }
