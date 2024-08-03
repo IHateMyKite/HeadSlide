@@ -6,6 +6,7 @@
 #include <memory>
 #include <functional>
 
+
 #define SLIDER_OFFSET 200
 #define SLIDER_CATEGORY_EXTRA 512
 #define SLIDER_CATEGORY_EXPRESSIONS 1024
@@ -17,7 +18,7 @@
 #define MORPH_CACHE_DIR "cache\\"
 #define MORPH_CACHE_PATH "actors\\character\\FaceGenMorphs\\morphs\\cache\\"
 
-namespace RM
+namespace SKEE
 {
     class BSFaceGenNiNode;
     class TESNPC;
@@ -56,8 +57,6 @@ namespace RM
 
         IInterfaceMap * interfaceMap = nullptr;
     };
-
-
 
     inline size_t hash_lower(const char* str, size_t count)
     {
@@ -122,23 +121,23 @@ namespace RM
 
 namespace std 
 {
-    template <> struct std::hash<RM::SKEEFixedString>
+    template <> struct std::hash<SKEE::SKEEFixedString>
     {
-        size_t operator()(const RM::SKEEFixedString & x) const
+        size_t operator()(const SKEE::SKEEFixedString & x) const
         {
             return x.GetHash();
         }
     };
-    template <> struct std::hash<RM::StringTableItem>
+    template <> struct std::hash<SKEE::StringTableItem>
     {
-        size_t operator()(const RM::StringTableItem & x) const
+        size_t operator()(const SKEE::StringTableItem & x) const
         {
             return x->GetHash();
         }
     };
 }
 
-namespace RM
+namespace SKEE
 {
     class SliderInternal
     {
@@ -381,7 +380,6 @@ namespace RM
     
         friend class RacePartDefaultGen;
     };
-
 
     class IBodyMorphInterface : public IPluginInterface
     {

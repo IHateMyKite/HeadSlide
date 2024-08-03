@@ -14,18 +14,19 @@ void SetupLog() {
     spdlog::flush_on(spdlog::level::trace);
 }
 
-
-
 SKSEPluginLoad(const SKSE::LoadInterface *skse) {
     SKSE::Init(skse);
     SetupLog();
 
-    SKSE::GetMessagingInterface()->RegisterListener("SKSE",[](SKSE::MessagingInterface::Message *message) 
+    SKSE::GetMessagingInterface()->RegisterListener([](SKSE::MessagingInterface::Message *message) 
     {
+        //DEBUG("Event received: {} , {} , {}",message->type,message->sender != nullptr ? message->sender : "",message->dataLen)
         switch (message->type)
         {
             // Game loaded
-            case 3:
+            case SKSE::MessagingInterface::kPostPostLoad:
+            case SKSE::MessagingInterface::kPostLoadGame:
+            case SKSE::MessagingInterface::kNewGame:
             {
                 HESL::Config::GetSingleton()->Setup();
                 HESL::HeadSlide::GetSingleton()->Init();

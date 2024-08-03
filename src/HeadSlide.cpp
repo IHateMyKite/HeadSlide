@@ -9,27 +9,41 @@ void HESL::HeadSlide::Init()
 {
     if (!_init)
     {
-        _init = true;
         DEBUG("Getting racemenu API")
-        RM::InterfaceExchangeMessage loc_msg;
-        SKSE::GetMessagingInterface()->Dispatch(RM::InterfaceExchangeMessage::kMessage_ExchangeInterface,&loc_msg, sizeof(RM::InterfaceExchangeMessage), nullptr);
+        SKEE::InterfaceExchangeMessage loc_msg;
+        SKSE::GetMessagingInterface()->Dispatch(SKEE::InterfaceExchangeMessage::kMessage_ExchangeInterface,(void*)&loc_msg, sizeof(SKEE::InterfaceExchangeMessage*), "skee");
         DEBUG("Dispatching finished -> 0x{:016X}",(uintptr_t)loc_msg.interfaceMap)
 
-        _faceinterface  = (RM::FaceMorphInterface*)loc_msg.interfaceMap->QueryInterface("FaceMorph");
-        _morphinterface = (RM::IBodyMorphInterface*)loc_msg.interfaceMap->QueryInterface("BodyMorph");
+        // === For some reason, these functions are broken, and sometimes returns wrong interface.......
+        auto loc_facemorph = static_cast<SKEE::FaceMorphInterface*>(loc_msg.interfaceMap->QueryInterface("FaceMorph"));
+        auto loc_bodymorph = static_cast<SKEE::IBodyMorphInterface*>(loc_msg.interfaceMap->QueryInterface("BodyMorph"));
 
-        if (_faceinterface == nullptr || _morphinterface == nullptr) 
+        if (loc_facemorph == nullptr || loc_bodymorph == nullptr) 
         {
             ERROR("Failed to get API from RaceMenu!!!")
             return;
         }
 
+        auto loc_ver = loc_bodymorph->GetVersion();
+        DEBUG("Bodymorph interface version = {}",loc_ver)
+
+        if (loc_ver >= 4)
+        {
+            _faceinterface  = static_cast<SKEE::FaceMorphInterface*>(loc_facemorph);
+            _morphinterface = static_cast<SKEE::IBodyMorphInterface*>(loc_bodymorph);
+        }
+        else
+        {
+            ERROR("Bodymorph interface version too old! Disabling mod...",loc_ver)
+            return;
+        }
+
+        _init = true;
+
         Reload();
 
         REL::Relocation<std::uintptr_t> vtbl_player{RE::PlayerCharacter::VTABLE[0]};
         UpdatePlayer_old = vtbl_player.write_vfunc(REL::Module::GetRuntime() != REL::Module::Runtime::VR ? 0x0AD : 0x0AF, UpdatePlayer);
-
-
     }
     else
     {
@@ -45,19 +59,33 @@ void HESL::HeadSlide::UpdatePlayer(RE::Actor* a_actor, float a_delta)
 
 void HESL::HeadSlide::UpdateActor(RE::Actor* a_actor, float a_delta)
 {
-    if (_reset)
+    if (a_actor)
     {
-        _morphinterface->ClearBodyMorphKeys(a_actor,MORPHKEY);
-        _reset = false;
-    }
+        if (_startdelay > 0) 
+        {
+            _startdelay--;
+            return;
+        }
 
-    // once per 5 frames
-    if ((++_framecnt % (_framethd.first  > 0 ? _framethd.first : 0)) == 0)
+        if (_reset)
+        {
+            _morphinterface->ClearBodyMorphKeys(a_actor,MORPHKEY);
+            _reset = false;
+        }
+
+        // once per 5 frames
+        if (((_framecnt % (_framethd.first  > 0 ? _framethd.first : 0)) == 0) && _framecnt > 0)
+        {
+            ReadyTempVars(a_actor);
+            UpdateSlidersMorphs(a_actor);
+            UpdateExpression(a_actor);
+            SetActorsMorphs(a_actor);
+        }
+        _framecnt++;
+    }
+    else
     {
-        ReadyTempVars(a_actor);
-        UpdateSlidersMorphs(a_actor);
-        UpdateExpression(a_actor);
-        SetActorsMorphs(a_actor);
+        ERROR("UpdateHeadSlide - Cant update actor as they are none")
     }
 }
 
@@ -164,12 +192,17 @@ void HESL::HeadSlide::UpdateExpression(RE::Actor* a_actor)
 
 void HESL::HeadSlide::SetActorsMorphs(RE::Actor* a_actor)
 {
+    if (a_actor == nullptr || _morphinterface == nullptr || _faceinterface == nullptr)
+    {
+        ERROR("Actor is either none, or there was error when importing RM API")
+        return;
+    }
+
     if (_differ /*(_oldvalues.size() != _newvalues.size()) || !std::equal(_oldvalues.begin(), _oldvalues.end(),_newvalues.begin())*/)
     {
         LOG("Difference in morphs found. Setting new morhps...")
 
         _morphinterface->ClearBodyMorphKeys(a_actor,MORPHKEY);
-
 
 
         for (auto&& [morph,value] : _newvalues)
@@ -178,8 +211,11 @@ void HESL::HeadSlide::SetActorsMorphs(RE::Actor* a_actor)
             LOG("{} -> {}",morph,value)
         }
 
-        _morphinterface->ApplyBodyMorphs(a_actor);
-        _morphinterface->UpdateModelWeight(a_actor);
+        if (a_actor->Is3DLoaded())
+        {
+            _morphinterface->UpdateModelWeight(a_actor, false);
+            a_actor->Update3DModel();
+        }
 
         _differ = false;
         LOG("***********************************************************************************")
@@ -218,6 +254,11 @@ void HESL::HeadSlide::Reload()
 
     #undef UPDATECONFIG
 
+    _differ = false;
+    _reset = false;
+    _framecnt = 0;
+    _startdelay = 200;
+
     _reset = true;
 }
 
@@ -229,10 +270,17 @@ void HESL::HeadSlide::ReadyTempVars(RE::Actor* a_actor)
 
 void HESL::HeadSlide::UpdateHeadSlide(PAPYRUSFUNCHANDLE, RE::Actor* a_actor)
 {
-    GetSingleton()->ReadyTempVars(a_actor);
-    GetSingleton()->UpdateSlidersMorphs(a_actor);
-    GetSingleton()->UpdateExpression(a_actor);
-    GetSingleton()->SetActorsMorphs(a_actor);
+    if (a_actor)
+    {
+        GetSingleton()->ReadyTempVars(a_actor);
+        GetSingleton()->UpdateSlidersMorphs(a_actor);
+        GetSingleton()->UpdateExpression(a_actor);
+        GetSingleton()->SetActorsMorphs(a_actor);
+    }
+    else
+    {
+        ERROR("UpdateHeadSlide - Cant update actor as they are none")
+    }
 }
 
 void HESL::HeadSlide::UpdateRaceSliders(RE::TESNPC* a_actorbase)
@@ -308,6 +356,22 @@ void HESL::HeadSlide::UpdateRMSliders(RE::TESNPC* a_actorbase)
         for (auto&& [morph,value] : loc_morph)
         {
             LOG("RM Morphs: {} - {}",morph.get()->c_str(),value)
+
+            std::string loc_morphraw = morph.get()->c_str();
+            std::transform(loc_morphraw.begin(), loc_morphraw.end(), loc_morphraw.begin(), ::tolower);;
+
+            bool loc_blacklisted = false;
+            for (auto&& it : _rmblacklist.first)
+            {
+                
+                if (loc_morphraw == it)
+                {
+                    LOG("Morph {} is blacklisted, and skipped",morph.get()->c_str())
+                    loc_blacklisted = true;
+                    break;
+                }
+            }
+            if (loc_blacklisted) continue;
 
             bool loc_simplevalue = true;
             for (auto&& [kw,suf] : pairkeywords)

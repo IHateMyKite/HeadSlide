@@ -744,5 +744,26 @@
         <Slider name="ece_HumEarType7" invert="false" default="0" hidden="true">
             <Data name="FemaleHeadece_HumEarType7" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadece_HumEarType7</Data>
         </Slider>
+        <Slider name="Underbite" invert="false" default="0" hidden="true">
+            <Data name="FemaleHeadUnderbite" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadUnderbite</Data>
+        </Slider>
+        <Slider name="Overbite" invert="false" default="0" hidden="true">
+            <Data name="FemaleHeadOverbite" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadOverbite</Data>
+        </Slider>
+        <Slider name="NoseUp" invert="false" default="0" hidden="true">
+            <Data name="FemaleHeadNoseUp" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadNoseUp</Data>
+        </Slider>
+        <Slider name="NoseDown" invert="false" default="0" hidden="true">
+            <Data name="FemaleHeadNoseDown" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadNoseDown</Data>
+        </Slider>
+        <Slider name="NoseLong" invert="false" default="0" hidden="true">
+            <Data name="FemaleHeadNoseLong" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadNoseLong</Data>
+        </Slider>
+        <Slider name="NoseShort" invert="false" default="0" hidden="true">
+            <Data name="FemaleHeadNoseShort" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadNoseShort</Data>
+        </Slider>
+        <Slider name="LipMoveUp" invert="false" default="0" hidden="true">
+            <Data name="FemaleHeadLipMoveUp" target="FemaleHead" local="true">HeadRef HPH.osd\FemaleHeadLipMoveUp</Data>
+        </Slider>
     </SliderSet>
 </SliderSetInfo>

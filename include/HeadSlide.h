@@ -107,8 +107,6 @@ namespace HESL
             {"CME_Orc",{"CME_OrcRace_inv","CME_OrcRace"}},
             {"CME_Redguard",{"CME_RedguardRace_inv","CME_RedguardRace"}},
             {"CME_WoodElf",{"CME_WoodElfRace_inv","CME_WoodElfRace"}},
-            
-            
         };
 
 
@@ -169,8 +167,8 @@ namespace HESL
     private:
         bool _init = false;
         static REL::Relocation<decltype(UpdatePlayer)> UpdatePlayer_old;
-        RM::FaceMorphInterface*     _faceinterface  = nullptr;
-        RM::IBodyMorphInterface*    _morphinterface = nullptr;
+        SKEE::FaceMorphInterface*     _faceinterface  = nullptr;
+        SKEE::IBodyMorphInterface*    _morphinterface = nullptr;
 
         std::unordered_map<std::string,float> _oldvalues;
         std::unordered_map<std::string,float> _newvalues;
@@ -178,6 +176,7 @@ namespace HESL
         bool _differ = false;
         bool _reset = false;
         uint64_t _framecnt = 0;
+        int _startdelay = 200;
 
         // old selected values
         std::vector<uint16_t> _defaultpartsselected = {0,0,0,0};
