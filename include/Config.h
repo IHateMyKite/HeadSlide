@@ -7,6 +7,7 @@ namespace HESL
     {
     SINGLETONHEADER(Config)
     public:
+        //static Config* GetSingleton(){return nullptr;};
         void Setup();
         template<typename T> T GetVariable(std::string a_name, T a_def) const;
         template<typename T> std::vector<T> GetArray(std::string a_name, std::string a_sep = ",") const;

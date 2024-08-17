@@ -1,3 +1,4 @@
+#include "include/Manager.h"
 #include "include/HeadSlide.h"
 #include "include/Papyrus.h"
 #include <spdlog/sinks/basic_file_sink.h>
@@ -29,7 +30,7 @@ SKSEPluginLoad(const SKSE::LoadInterface *skse) {
             case SKSE::MessagingInterface::kNewGame:
             {
                 HESL::Config::GetSingleton()->Setup();
-                HESL::HeadSlide::GetSingleton()->Init();
+                HESL::HeadSlideManager::GetSingleton()->Init();
             }
         }
     });

@@ -5,159 +5,23 @@ namespace HESL
 {
     #define MORPHKEY "HeadSlide"
 
+    struct RMSeries;
+    class HeadSlideManager;
+
     class HeadSlide
     {
-    SINGLETONHEADER(HeadSlide)
     public:
-        void Init();
-        static void UpdatePlayer(RE::Actor* a_actor, float a_delta);
-        void UpdateActor(RE::Actor* a_actor, float a_delta);
+        HeadSlide(RE::Actor* a_actor);
+        void UpdateActor(float a_delta);
 
-        void UpdateSlidersMorphs(RE::Actor* a_actor);
-        void UpdateExpression(RE::Actor* a_actor);
-        void SetActorsMorphs(RE::Actor* a_actor);
+        void UpdateSlidersMorphs();
+        void UpdateExpression();
+        void SetActorsMorphs();
 
         void Reload();
-        void ReadyTempVars(RE::Actor* a_actor);
-    public:
-        const std::vector<std::string> defaultparts = 
-        {
-            "Nose",
-            "Unk",
-            "Eyes",
-            "Lip"
-        };
+        void ReadyTempVars();
 
-        const std::vector<std::string> phonemesliders = 
-        {
-            "Aah",
-            "BigAah",
-            "BMP",
-            "ChJSh",
-            "DST",
-            "Eee",
-            "Eh",
-            "FV",
-            "I",
-            "K",
-            "N",
-            "Oh",
-            "OohQ",
-            "R",
-            "Th",
-            "W"
-        };
-
-        const std::vector<std::string> modifiersliders = 
-        {
-            "BlinkLeft",
-            "BlinkRight",
-            "BrowDownLeft",
-            "BrowDownRight",
-            "BrowInLeft",
-            "BrowInRight",
-            "BrowUpLeft",
-            "BrowUpRight",
-            "LookDown",
-            "LookLeft",
-            "LookRight",
-            "LookUp",
-            "SquintLeft",
-            "SquintRight"
-        };
-
-        const std::vector<std::pair<std::string,std::string>> defaultsliders = 
-        {
-            {"NoseShort","NoseLong"},
-            {"NoseDown","NoseUp"},
-            {"JawDown","JawUp"},
-            {"JawNarrow","JawWide"},
-            {"JawBack","JawForward"},
-            {"CheeksDown","CheeksUp"},
-            {"CheeksOut","CheeksIn"},
-            {"EyesMoveDown","EyesMoveUp"},
-            {"EyesMoveOut","EyesMoveIn"},
-            {"BrowDown","BrowUp"},
-            {"BrowOut","BrowIn"},
-            {"BrowBack","BrowForward"},
-            {"LipMoveDown","LipMoveUp"},
-            {"LipMoveOut","LipMoveIn"},
-            {"ChinThin","ChinWide"},
-            {"ChinMoveDown","ChinMoveUp"},
-            {"Overbite","Underbite"},
-            {"EyesBack","EyesForward"},
-        };
-
-        const std::vector<std::pair<std::string,std::pair<std::string,std::string>>> pairkeywords = 
-        {
-            {"LongShort",{"Short","Long"}},
-            {"UpDown",{"Down","Up"}},
-            {"WideNarrow",{"Narrow","Wide"}},
-            {"ForwardBack",{"Back","Forward"}},
-            {"InOut",{"Out","In"}},
-            {"WideThin",{"Thin","Wide"}},
-            {"ECE_EarSize",{"ece_EarSmall","ece_EarLarge"}},
-            {"CME_Breton",{"CME_BretonRace_inv","CME_BretonRace"}},
-            {"CME_DarkElf",{"CME_DarkElfRace_inv","CME_DarkElfRace"}},
-            {"CME_Dremora",{"CME_DremoraRace_inv","CME_DremoraRace"}},
-            {"CME_Elder",{"CME_ElderRace_inv","CME_ElderRace"}},
-            {"CME_HighElf",{"CME_HighElfRace_inv","CME_HighElfRace"}},
-            {"CME_Imperial",{"CME_ImperialRace_inv","CME_ImperialRace"}},
-            {"CME_Nord",{"CME_NordRace_inv","CME_NordRace"}},
-            {"CME_Orc",{"CME_OrcRace_inv","CME_OrcRace"}},
-            {"CME_Redguard",{"CME_RedguardRace_inv","CME_RedguardRace"}},
-            {"CME_WoodElf",{"CME_WoodElfRace_inv","CME_WoodElfRace"}},
-        };
-
-
-        const std::vector<std::string> expressionsliders = 
-        {
-            "DialogueAnger",
-            "DialogueFear",
-            "DialogueHappy",
-            "DialogueSad",
-            "DialogueSurprise",
-            "DialoguePuzzled",
-            "DialogueDisgusted",
-            "MoodNeutral",
-            "MoodAnger",
-            "MoodFear",
-            "MoodHappy",
-            "MoodSad",
-            "MoodSurprise",
-            "MoodPuzzled",
-            "MoodDisgusted",
-            "CombatAnger",
-            "CombatShout",
-            "MoodPuzzled",
-            "MoodPuzzled",
-        };
-
-        const std::vector<std::string> sliderkeys = 
-        {
-            "HeadSlide",
-            "HeadSlideMorph",
-            "HeadSlideParts",
-            "HeadSlideRace",
-            "HeadSlideExpPhon",
-            "HeadSlideExpMod",
-            "HeadSlideExpExp"
-        };
-
-        struct RMSeries
-        {
-            int lasttype = 0;
-            std::string slider;
-        };
-
-        std::unordered_map<std::string,RMSeries> seriesparse = 
-        {
-            {"ECE_EarShape",{0,"ece_HumEarType"}}
-        };
-
-    public:
-        static void UpdateHeadSlide(PAPYRUSFUNCHANDLE, RE::Actor* a_actor);
-
+        RE::Actor* GetTarget() {return _target;}
     private:
         void UpdateRaceSliders(RE::TESNPC* a_actorbase);
         void UpdateHeadPartsSliders(RE::TESNPC* a_actorbase);
@@ -166,9 +30,7 @@ namespace HESL
         void UpdateWeightSliders(RE::TESNPC* a_actorbase);
     private:
         bool _init = false;
-        static REL::Relocation<decltype(UpdatePlayer)> UpdatePlayer_old;
-        SKEE::FaceMorphInterface*     _faceinterface  = nullptr;
-        SKEE::IBodyMorphInterface*    _morphinterface = nullptr;
+        RE::Actor* _target;
 
         std::unordered_map<std::string,float> _oldvalues;
         std::unordered_map<std::string,float> _newvalues;
@@ -182,18 +44,5 @@ namespace HESL
         std::vector<uint16_t> _defaultpartsselected = {0,0,0,0};
         std::string _raceselected = "";
         uint8_t _expressionselected = 0;
-
-        // config
-        std::pair<int,std::string>  _framethd = {15,"General.iUpdateFrames"};
-        std::pair<bool,std::string> _chargen = {true,"General.bChargen"};
-        std::pair<bool,std::string> _rmmorphs = {true,"General.bRMMorphs"};
-        std::pair<bool,std::string> _parts = {true,"General.bParts"};
-        std::pair<bool,std::string> _race = {true,"General.bRace"};
-        std::pair<bool,std::string> _weight = {true,"General.bWeight"};
-        std::pair<bool,std::string> _expphon = {true,"General.bExpPhonems"};
-        std::pair<bool,std::string> _expmod = {true,"General.bExpMods"};
-        std::pair<bool,std::string> _expexp = {true,"General.bExpExp"};
-
-        std::pair<std::vector<std::string>,std::string> _rmblacklist = {{},"General.asRMBlacklist"};
     };
 }

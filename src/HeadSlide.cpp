@@ -1,66 +1,19 @@
 #include "HeadSlide.h"
 #include <boost/algorithm/string.hpp>
+#include "Constants.h"
+#include "Manager.h"
 
-SINGLETONBODY(HESL::HeadSlide)
-
-REL::Relocation<decltype(HESL::HeadSlide::UpdatePlayer)> HESL::HeadSlide::UpdatePlayer_old;
-
-void HESL::HeadSlide::Init()
+HESL::HeadSlide::HeadSlide(RE::Actor* a_actor)
 {
-    if (!_init)
-    {
-        DEBUG("Getting racemenu API")
-        SKEE::InterfaceExchangeMessage loc_msg;
-        SKSE::GetMessagingInterface()->Dispatch(SKEE::InterfaceExchangeMessage::kMessage_ExchangeInterface,(void*)&loc_msg, sizeof(SKEE::InterfaceExchangeMessage*), "skee");
-        DEBUG("Dispatching finished -> 0x{:016X}",(uintptr_t)loc_msg.interfaceMap)
-
-        // === For some reason, these functions are broken, and sometimes returns wrong interface.......
-        auto loc_facemorph = static_cast<SKEE::FaceMorphInterface*>(loc_msg.interfaceMap->QueryInterface("FaceMorph"));
-        auto loc_bodymorph = static_cast<SKEE::IBodyMorphInterface*>(loc_msg.interfaceMap->QueryInterface("BodyMorph"));
-
-        if (loc_facemorph == nullptr || loc_bodymorph == nullptr) 
-        {
-            ERROR("Failed to get API from RaceMenu!!!")
-            return;
-        }
-
-        auto loc_ver = loc_bodymorph->GetVersion();
-        DEBUG("Bodymorph interface version = {}",loc_ver)
-
-        if (loc_ver >= 4)
-        {
-            _faceinterface  = static_cast<SKEE::FaceMorphInterface*>(loc_facemorph);
-            _morphinterface = static_cast<SKEE::IBodyMorphInterface*>(loc_bodymorph);
-        }
-        else
-        {
-            ERROR("Bodymorph interface version too old! Disabling mod...",loc_ver)
-            return;
-        }
-
-        _init = true;
-
-        Reload();
-
-        REL::Relocation<std::uintptr_t> vtbl_player{RE::PlayerCharacter::VTABLE[0]};
-        UpdatePlayer_old = vtbl_player.write_vfunc(REL::Module::GetRuntime() != REL::Module::Runtime::VR ? 0x0AD : 0x0AF, UpdatePlayer);
-    }
-    else
-    {
-        Reload();
-    }
+    _target = a_actor;
+    Reload();
 }
 
-void HESL::HeadSlide::UpdatePlayer(RE::Actor* a_actor, float a_delta)
+void HESL::HeadSlide::UpdateActor(float a_delta)
 {
-    if (a_delta > 0.0f) GetSingleton()->UpdateActor(a_actor,a_delta);
-    UpdatePlayer_old(a_actor,a_delta);
-}
-
-void HESL::HeadSlide::UpdateActor(RE::Actor* a_actor, float a_delta)
-{
-    if (a_actor)
+    if (_target)
     {
+        LOG("HeadSlide::UpdateActor({})",_target ? _target->GetName() : "NONE")
         if (_startdelay > 0) 
         {
             _startdelay--;
@@ -69,17 +22,17 @@ void HESL::HeadSlide::UpdateActor(RE::Actor* a_actor, float a_delta)
 
         if (_reset)
         {
-            _morphinterface->ClearBodyMorphKeys(a_actor,MORPHKEY);
+            HeadSlideManager::morphinterface->ClearBodyMorphKeys(_target,MORPHKEY);
             _reset = false;
         }
 
         // once per 5 frames
-        if (((_framecnt % (_framethd.first  > 0 ? _framethd.first : 0)) == 0) && _framecnt > 0)
+        if (((_framecnt % (g_framethd.first  > 0 ? g_framethd.first : 0)) == 0) && _framecnt > 0)
         {
-            ReadyTempVars(a_actor);
-            UpdateSlidersMorphs(a_actor);
-            UpdateExpression(a_actor);
-            SetActorsMorphs(a_actor);
+            ReadyTempVars();
+            UpdateSlidersMorphs();
+            UpdateExpression();
+            SetActorsMorphs();
         }
         _framecnt++;
     }
@@ -103,10 +56,10 @@ void HESL::HeadSlide::UpdateActor(RE::Actor* a_actor, float a_delta)
     _newvalues[morph] = value;                                      \
 }
 
-void HESL::HeadSlide::UpdateSlidersMorphs(RE::Actor* a_actor)
+void HESL::HeadSlide::UpdateSlidersMorphs()
 {
-    LOG("UpdateSlidersMorphs({})",a_actor ? a_actor->GetName() : "NONE")
-    if (a_actor == nullptr || _faceinterface == nullptr || _morphinterface == nullptr)
+    LOG("UpdateSlidersMorphs({})",_target ? _target->GetName() : "NONE")
+    if (_target == nullptr || HeadSlideManager::faceinterface == nullptr || HeadSlideManager::morphinterface == nullptr)
     {
         ERROR("Actor is either none, or there was error when importing RM API")
         return;
@@ -114,7 +67,7 @@ void HESL::HeadSlide::UpdateSlidersMorphs(RE::Actor* a_actor)
 
     //_morphinterface->ClearBodyMorphKeys(a_actor,"HeadSlideMorph");
 
-    auto loc_actorbase = a_actor->GetActorBase(); 
+    auto loc_actorbase = _target->GetActorBase(); 
 
     // RM sliders
     UpdateRMSliders(loc_actorbase);
@@ -132,44 +85,44 @@ void HESL::HeadSlide::UpdateSlidersMorphs(RE::Actor* a_actor)
     UpdateWeightSliders(loc_actorbase);
 }
 
-void HESL::HeadSlide::UpdateExpression(RE::Actor* a_actor)
+void HESL::HeadSlide::UpdateExpression()
 {
-    LOG("UpdateExpression({})",a_actor ? a_actor->GetName() : "NONE")
+    LOG("UpdateExpression({})",_target ? _target->GetName() : "NONE")
 
-    if (a_actor == nullptr || _faceinterface == nullptr || _morphinterface == nullptr)
+    if (_target == nullptr || HeadSlideManager::faceinterface == nullptr || HeadSlideManager::morphinterface == nullptr)
     {
         ERROR("Actor is either none, or there was error when importing RM API")
         return;
     }
 
     // Expression
-    RE::BSFaceGenAnimationData* loc_expdata = a_actor->GetFaceGenAnimationData();
+    RE::BSFaceGenAnimationData* loc_expdata = _target->GetFaceGenAnimationData();
 
     if (loc_expdata != nullptr)
     {
-        if (_expphon.first)
+        if (g_expphon.first)
         {
             for (int i = 0; i < 16; i++) 
             {
-                const std::string loc_morphexp = phonemesliders[i];
+                const std::string loc_morphexp = g_phonemesliders[i];
                 const float loc_value = loc_expdata->phenomeKeyFrame.values[i];
                 LOG("Phoneme: {} = {}",loc_morphexp,loc_value)
                 UPDATEMORPH(loc_morphexp.c_str(),"HeadSlide",loc_value);
             }
         }
 
-        if (_expmod.first)
+        if (g_expmod.first)
         {
             for (int i = 0; i < 14; i++) 
             {
-                const std::string loc_morphexp = modifiersliders[i];
+                const std::string loc_morphexp = g_modifiersliders[i];
                 const float loc_value = loc_expdata->modifierKeyFrame.values[i];
                 LOG("Modifier: {} = {}",loc_morphexp,loc_value)
                 UPDATEMORPH(loc_morphexp.c_str(),"HeadSlide",loc_value);
             }
         }
 
-        if (_expexp.first)
+        if (g_expexp.first)
         {
             const size_t loc_count_exp = loc_expdata->expressionKeyFrame.count;
             for (int i = 0; i < loc_count_exp;i++)
@@ -181,7 +134,7 @@ void HESL::HeadSlide::UpdateExpression(RE::Actor* a_actor)
                         _differ = true;
                         DEBUG("Expression changed from {} to {}",_expressionselected,i)
                     }
-                    UPDATEMORPH(expressionsliders[i].c_str(),"HeadSlide",loc_expdata->expressionKeyFrame.values[i]);
+                    UPDATEMORPH(g_expressionsliders[i].c_str(),"HeadSlide",loc_expdata->expressionKeyFrame.values[i]);
                     _expressionselected = i;
                     break;
                 }
@@ -190,9 +143,9 @@ void HESL::HeadSlide::UpdateExpression(RE::Actor* a_actor)
     }
 }
 
-void HESL::HeadSlide::SetActorsMorphs(RE::Actor* a_actor)
+void HESL::HeadSlide::SetActorsMorphs()
 {
-    if (a_actor == nullptr || _morphinterface == nullptr || _faceinterface == nullptr)
+    if (_target == nullptr || HeadSlideManager::morphinterface == nullptr || HeadSlideManager::faceinterface == nullptr)
     {
         ERROR("Actor is either none, or there was error when importing RM API")
         return;
@@ -202,19 +155,19 @@ void HESL::HeadSlide::SetActorsMorphs(RE::Actor* a_actor)
     {
         LOG("Difference in morphs found. Setting new morhps...")
 
-        _morphinterface->ClearBodyMorphKeys(a_actor,MORPHKEY);
+        HeadSlideManager::morphinterface->ClearBodyMorphKeys(_target,MORPHKEY);
 
 
         for (auto&& [morph,value] : _newvalues)
         {
-            _morphinterface->SetMorph(a_actor,morph.c_str(),MORPHKEY,value);
+            HeadSlideManager::morphinterface->SetMorph(_target,morph.c_str(),MORPHKEY,value);
             LOG("{} -> {}",morph,value)
         }
 
-        if (a_actor->Is3DLoaded())
+        if (_target->Is3DLoaded())
         {
-            _morphinterface->UpdateModelWeight(a_actor, false);
-            a_actor->Update3DModel();
+            HeadSlideManager::morphinterface->UpdateModelWeight(_target, false);
+            _target->Update3DModel();
         }
 
         _differ = false;
@@ -225,34 +178,9 @@ void HESL::HeadSlide::SetActorsMorphs(RE::Actor* a_actor)
 
 void HESL::HeadSlide::Reload()
 {
-    DEBUG("Reloading HeadSlide")
+    //DEBUG("Reloading HeadSlide for {}")
     _oldvalues.clear();
     _newvalues.clear();
-
-    #define UPDATECONFIG(val,type)                                                   \
-    {                                                                                \
-        val.first = Config::GetSingleton()->GetVariable<type>(val.second,val.first); \
-        DEBUG("Config variable loaded: {} -> {}",val.second,val.first)               \
-    }
-    #define UPDATECONFIGARR(val,type)                                                \
-    {                                                                                \
-        val.first = Config::GetSingleton()->GetArray<type>(val.second);              \
-        DEBUG("Config variable loaded: {} -> {}",val.second,boost::join(val.first,",")) \
-    }
-
-    UPDATECONFIG(_framethd,int)
-    UPDATECONFIG(_chargen ,bool)
-    UPDATECONFIG(_rmmorphs,bool)
-    UPDATECONFIG(_parts   ,bool)
-    UPDATECONFIG(_race    ,bool)
-    UPDATECONFIG(_weight  ,bool)
-    UPDATECONFIG(_expphon ,bool)
-    UPDATECONFIG(_expmod  ,bool)
-    UPDATECONFIG(_expexp  ,bool)
-
-    UPDATECONFIGARR(_rmblacklist,std::string)
-
-    #undef UPDATECONFIG
 
     _differ = false;
     _reset = false;
@@ -262,30 +190,15 @@ void HESL::HeadSlide::Reload()
     _reset = true;
 }
 
-void HESL::HeadSlide::ReadyTempVars(RE::Actor* a_actor)
+void HESL::HeadSlide::ReadyTempVars()
 {
     _oldvalues = _newvalues;
     _newvalues.clear();
 }
 
-void HESL::HeadSlide::UpdateHeadSlide(PAPYRUSFUNCHANDLE, RE::Actor* a_actor)
-{
-    if (a_actor)
-    {
-        GetSingleton()->ReadyTempVars(a_actor);
-        GetSingleton()->UpdateSlidersMorphs(a_actor);
-        GetSingleton()->UpdateExpression(a_actor);
-        GetSingleton()->SetActorsMorphs(a_actor);
-    }
-    else
-    {
-        ERROR("UpdateHeadSlide - Cant update actor as they are none")
-    }
-}
-
 void HESL::HeadSlide::UpdateRaceSliders(RE::TESNPC* a_actorbase)
 {
-    if (_race.first)
+    if (g_race.first)
     {
         LOG("Race: {}",a_actorbase->race->GetName())
         //_morphinterface->ClearBodyMorphKeys(a_actor,"HeadSlideRace");
@@ -306,7 +219,7 @@ void HESL::HeadSlide::UpdateRaceSliders(RE::TESNPC* a_actorbase)
 
 void HESL::HeadSlide::UpdateHeadPartsSliders(RE::TESNPC* a_actorbase)
 {
-    if (_parts.first)
+    if (g_parts.first)
     {
         //_morphinterface->ClearBodyMorphKeys(a_actor,"HeadSlideParts");
         for (int i = 0; i < RE::TESNPC::FaceData::Parts::kTotal; i++)
@@ -314,12 +227,12 @@ void HESL::HeadSlide::UpdateHeadPartsSliders(RE::TESNPC* a_actorbase)
             if (i != RE::TESNPC::FaceData::Parts::kUnknown)
             {
                 uint16_t loc_selpart = a_actorbase->faceData->parts[i];
-                const std::string loc_slider = defaultparts[i] + "Type" + std::to_string(loc_selpart);
+                const std::string loc_slider = g_defaultparts[i] + "Type" + std::to_string(loc_selpart);
 
                 if (_defaultpartsselected[i] != loc_selpart)
                 {
                     _differ = true;
-                    DEBUG("Head part {} changed from {} to {}",defaultparts[i],_defaultpartsselected[i],loc_selpart)
+                    DEBUG("Head part {} changed from {} to {}",g_defaultparts[i],_defaultpartsselected[i],loc_selpart)
                 }
 
                 UPDATEMORPH(loc_slider.c_str(),"HeadSlide",1.0f)
@@ -334,25 +247,25 @@ void HESL::HeadSlide::UpdateHeadPartsSliders(RE::TESNPC* a_actorbase)
 
 void HESL::HeadSlide::UpdateChargenSliders(RE::TESNPC* a_actorbase)
 {
-    if (_chargen.first)
+    if (g_chargen.first)
     {
         for (int i = 0; i < RE::TESNPC::FaceData::Morphs::kUnk; i++)
         {
             const float loc_plusvalue   = a_actorbase->faceData->morphs[i] >= 0.0f ? a_actorbase->faceData->morphs[i] : 0.0f;
             const float loc_minusvalue  = a_actorbase->faceData->morphs[i] <  0.0f ? a_actorbase->faceData->morphs[i]*(-1.0f) : 0.0f;
-            UPDATEMORPH(defaultsliders[i].second.c_str(),"HeadSlide",loc_plusvalue)
-            UPDATEMORPH(defaultsliders[i].first.c_str(),"HeadSlide",loc_minusvalue)
+            UPDATEMORPH(g_defaultsliders[i].second.c_str(),"HeadSlide",loc_plusvalue)
+            UPDATEMORPH(g_defaultsliders[i].first.c_str(),"HeadSlide",loc_minusvalue)
 
-            LOG("Default slides: {} -> {} = {} / {} = {}",a_actorbase->faceData->morphs[i],defaultsliders[i].second,loc_plusvalue,defaultsliders[i].first,loc_minusvalue)
+            LOG("Default slides: {} -> {} = {} / {} = {}",a_actorbase->faceData->morphs[i],g_defaultsliders[i].second,loc_plusvalue,g_defaultsliders[i].first,loc_minusvalue)
         }
     }
 }
 
 void HESL::HeadSlide::UpdateRMSliders(RE::TESNPC* a_actorbase)
 {
-    if (_rmmorphs.first)
+    if (g_rmmorphs.first)
     {
-        auto loc_morph = _faceinterface->m_valueMap[a_actorbase];
+        auto loc_morph = HeadSlideManager::faceinterface->m_valueMap[a_actorbase];
         for (auto&& [morph,value] : loc_morph)
         {
             LOG("RM Morphs: {} - {}",morph.get()->c_str(),value)
@@ -361,7 +274,7 @@ void HESL::HeadSlide::UpdateRMSliders(RE::TESNPC* a_actorbase)
             std::transform(loc_morphraw.begin(), loc_morphraw.end(), loc_morphraw.begin(), ::tolower);;
 
             bool loc_blacklisted = false;
-            for (auto&& it : _rmblacklist.first)
+            for (auto&& it : g_rmblacklist.first)
             {
                 
                 if (loc_morphraw == it)
@@ -374,7 +287,7 @@ void HESL::HeadSlide::UpdateRMSliders(RE::TESNPC* a_actorbase)
             if (loc_blacklisted) continue;
 
             bool loc_simplevalue = true;
-            for (auto&& [kw,suf] : pairkeywords)
+            for (auto&& [kw,suf] : g_pairkeywords)
             {
             
                 auto loc_regstr = std::format(R"regex((.*){}\b)regex",kw);
@@ -402,7 +315,7 @@ void HESL::HeadSlide::UpdateRMSliders(RE::TESNPC* a_actorbase)
             if (loc_simplevalue) 
             {
                 bool loc_series = false;
-                for (auto&& [kw,type] : seriesparse)
+                for (auto&& [kw,type] : g_seriesparse)
                 {
                     if (morph.get()->c_str() == kw)
                     {
@@ -430,7 +343,7 @@ void HESL::HeadSlide::UpdateRMSliders(RE::TESNPC* a_actorbase)
 
 void HESL::HeadSlide::UpdateWeightSliders(RE::TESNPC* a_actorbase)
 {
-    if (_weight.first)
+    if (g_weight.first)
     {
         LOG("Weight: {}",a_actorbase->weight)
         UPDATEMORPH("SkinnyMorph","HeadSlide",1.0f - (a_actorbase->weight/100.0f))

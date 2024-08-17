@@ -3,13 +3,14 @@
 cmake_minimum_required(VERSION 3.21)
 
 # Set your project name. This will be the name of your SKSE .dll file.
-project(HeadSlide VERSION 1.0.0 LANGUAGES CXX)
+project(HeadSlide VERSION 1.1.0 LANGUAGES CXX)
 
 # === Set source files ===
 # Add new .cpp here, otherwise the build will end with link error
 set(source_files ${source_files}
-    src/HeadSlide.cpp
     src/Config.cpp
+    src/Manager.cpp
+    src/HeadSlide.cpp
     src/Papyrus.cpp
 )
 

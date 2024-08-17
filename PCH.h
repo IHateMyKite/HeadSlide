@@ -29,7 +29,6 @@ using namespace std::literals;
 
 #include "Config.h"
 
-
 #if (1)
     #define LOG(...)    {if (HESL::Config::GetSingleton()->GetVariable<int>("General.iLogging",1) >= 2) auto log_l = SKSE::log::info(__VA_ARGS__);}
     #define WARN(...)   {if (HESL::Config::GetSingleton()->GetVariable<int>("General.iLogging",1) >= 1) auto log_w = SKSE::log::warn(__VA_ARGS__);}

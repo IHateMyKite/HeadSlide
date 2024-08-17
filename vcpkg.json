@@ -8,5 +8,11 @@
         "boost-math",
         "boost-lexical-cast",
         "boost-property-tree"
+    ],
+    "overrides": [
+        {
+            "name": "fmt",
+            "version": "8.0.1"
+        }
     ]
 }
