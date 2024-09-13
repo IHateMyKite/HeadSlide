@@ -26,8 +26,8 @@ void HESL::HeadSlide::UpdateActor(float a_delta)
             _reset = false;
         }
 
-        // once per 5 frames
-        if (((_framecnt % (g_framethd.first  > 0 ? g_framethd.first : 0)) == 0) && _framecnt > 0)
+        // once per _framecntreq frames
+        if (((_framecnt % (_framecntreq > 0 ? _framecntreq : 0)) == 0) && _framecnt > 0)
         {
             ReadyTempVars();
             UpdateSlidersMorphs();
@@ -185,6 +185,7 @@ void HESL::HeadSlide::Reload()
     _differ = false;
     _reset = false;
     _framecnt = 0;
+    _framecntreq = g_framethd.first;
     _startdelay = 200;
 
     _reset = true;

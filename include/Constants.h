@@ -139,6 +139,8 @@ namespace HESL
 
     // config
     inline std::pair<int,std::string>  g_framethd = {15,"General.iUpdateFrames"};
+    inline std::pair<int,std::string>  g_framethdNPC = {60,"General.iUpdateFramesNPC"};
+    inline std::pair<float,std::string>g_updatedistance = {300.0f,"General.fUpdateNPCDistance"};
     inline std::pair<bool,std::string> g_chargen = {true,"General.bChargen"};
     inline std::pair<bool,std::string> g_rmmorphs = {true,"General.bRMMorphs"};
     inline std::pair<bool,std::string> g_parts = {true,"General.bParts"};

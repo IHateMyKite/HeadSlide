@@ -3,6 +3,7 @@
 #include "Config.h"
 #include <boost/algorithm/string.hpp>
 #include "HeadSlide.h"
+#include "HeadSlideNPC.h"
 
 SINGLETONBODY(HESL::HeadSlideManager)
 
@@ -82,6 +83,8 @@ void HESL::HeadSlideManager::Reload()
     }
 
     UPDATECONFIG(g_framethd,int)
+    UPDATECONFIG(g_framethdNPC,int)
+    UPDATECONFIG(g_updatedistance,float)
     UPDATECONFIG(g_chargen ,bool)
     UPDATECONFIG(g_rmmorphs,bool)
     UPDATECONFIG(g_parts   ,bool)
@@ -114,7 +117,15 @@ void HESL::HeadSlideManager::UpdateNPC(RE::Actor* a_actor, float a_delta)
         auto loc_headslide = _npclist[loc_handle];
         if (!loc_headslide) 
         {
-            loc_headslide = std::shared_ptr<HeadSlide>(new HeadSlide(loc_actor));
+            if (loc_actor->IsPlayerRef())
+            {
+                loc_headslide = std::shared_ptr<HeadSlide>(new HeadSlide(loc_actor));
+            }
+            else
+            {
+                loc_headslide = std::shared_ptr<HeadSlide>(new HeadSlideNPC(loc_actor));
+            }
+            
             _npclist[loc_handle] = loc_headslide;
         }
         loc_headslide->UpdateActor(a_delta);
@@ -154,7 +165,7 @@ void HESL::HeadSlideManager::UpdateCharacterHook(RE::Actor* a_actor, float a_del
                             auto loc_pos1 = a_actor->GetPosition();
                             auto loc_pos2 = loc_player->GetPosition();
                             auto loc_distance = loc_pos1.GetDistance(loc_pos2);
-                            loc_update = (loc_distance <= 2000.0f);
+                            loc_update = (loc_distance <= g_updatedistance.first);
                         }
                         break;
                     }

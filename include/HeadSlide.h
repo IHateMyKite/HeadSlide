@@ -12,23 +12,23 @@ namespace HESL
     {
     public:
         HeadSlide(RE::Actor* a_actor);
-        void UpdateActor(float a_delta);
+        virtual void UpdateActor(float a_delta);
 
-        void UpdateSlidersMorphs();
-        void UpdateExpression();
-        void SetActorsMorphs();
+        virtual void UpdateSlidersMorphs();
+        virtual void UpdateExpression();
+        virtual void SetActorsMorphs();
 
-        void Reload();
+        virtual void Reload();
         void ReadyTempVars();
 
         RE::Actor* GetTarget() {return _target;}
-    private:
+    protected:
         void UpdateRaceSliders(RE::TESNPC* a_actorbase);
         void UpdateHeadPartsSliders(RE::TESNPC* a_actorbase);
         void UpdateChargenSliders(RE::TESNPC* a_actorbase);
         void UpdateRMSliders(RE::TESNPC* a_actorbase);
         void UpdateWeightSliders(RE::TESNPC* a_actorbase);
-    private:
+    protected:
         bool _init = false;
         RE::Actor* _target;
 
@@ -38,6 +38,7 @@ namespace HESL
         bool _differ = false;
         bool _reset = false;
         uint64_t _framecnt = 0;
+        uint64_t _framecntreq = 0;
         int _startdelay = 200;
 
         // old selected values

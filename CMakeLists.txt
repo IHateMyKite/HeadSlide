@@ -11,6 +11,7 @@ set(source_files ${source_files}
     src/Config.cpp
     src/Manager.cpp
     src/HeadSlide.cpp
+    src/HeadSlideNPC.cpp
     src/Papyrus.cpp
 )
 
